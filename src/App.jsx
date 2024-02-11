@@ -1,26 +1,43 @@
-import React, { memo } from 'react';
-import { Routes, Route } from 'react-router-dom'
+import React, { useState, useEffect, memo } from 'react'; // Import useState
+import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Events from './components/Events/Events';
+import Products from './components/Products/Products';
+// import NumberAnimation from './components/Animation/Animation';
 import Navbar from './components/Navbar/Navbar';
-import './App.css'
+import PreLoader from './components/PreLoader/preLoader';
 
+import './App.css';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
   return (
     <>
-    <Navbar />
-    <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
-      </Routes>
-    </main>
+      {loading ? <PreLoader /> : (
+        <div>
+          <Navbar />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/products" element={<Products />} />
+              {/* <Route path="/numberanimation" element={<NumberAnimation targetNumber = {300}/>} /> */}
+            </Routes>
+          </main>
+        </div>
+      )}
     </>
-  )
+  );
 }
 
 export default memo(App);
