@@ -7,9 +7,13 @@ import Events from './components/Events/Events';
 import Products from './components/Products/Products';
 // import NumberAnimation from './components/Animation/Animation';
 import Navbar from './components/Navbar/Navbar';
-import PreLoader from './components/PreLoader/preLoader';
 
-import './App.css';
+import PreLoader from './components/PreLoader/preLoader';
+import Projects from './components/Projects/Projects';
+import './App.css'
+
+
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +26,7 @@ function App() {
 
   return (
     <>
+
       {loading ? <PreLoader /> : (
         <div>
           <Navbar />
@@ -36,6 +41,8 @@ function App() {
           </main>
         </div>
       )}
+
+   
     </>
   );
 }
