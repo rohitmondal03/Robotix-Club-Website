@@ -3,7 +3,12 @@
   display: flex;
   justify-content: space-between;
   transition: ease-out 650ms;
+
+  position: fixed;
+  width: 100%;
+ 
   z-index: 99999;
+
 }
 
 .navbar_normal {

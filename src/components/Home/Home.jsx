@@ -1,5 +1,8 @@
+
+import React, { memo, useState, useEffect } from 'react';
+
 import React, { memo } from 'react'
-import  { useEffect, useRef } from "react";
+import  {  useRef } from "react";
 import "./Home.css"
 import { gsap } from "gsap";
     
@@ -15,6 +18,7 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { EaselPlugin } from "gsap/EaselPlugin";
 import { PixiPlugin } from "gsap/PixiPlugin";
 import { TextPlugin } from "gsap/TextPlugin";
+
 
 
 
@@ -114,6 +118,7 @@ function Home() {
   
   return (
     <>
+
  
     <div className="overflow-hidden body">
  
@@ -174,8 +179,9 @@ function Home() {
     </main>
   </div> 
 </div>
+
     </>
-  )
+  );
 }
 
-export default memo(Home)
+export default memo(Home);
