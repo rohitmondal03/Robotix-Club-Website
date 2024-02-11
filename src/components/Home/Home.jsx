@@ -1,7 +1,7 @@
 
 import React, { memo, useState, useEffect } from 'react';
 
-import React, { memo } from 'react'
+
 import  {  useRef } from "react";
 import "./Home.css"
 import { gsap } from "gsap";
