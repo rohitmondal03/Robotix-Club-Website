@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Menu, CrossIcon, Divide } from "lucide-react"
-
+import { Link } from 'react-router-dom';
 import "./Navbar.css"
 
 
@@ -9,8 +9,14 @@ export default function Navbar() {
 
   return (
     <nav className={`${isOpen ? "navbar_expand" : "navbar_normal"} navbar`}>
-      <h2>Robotix Club</h2>
-
+      <div className="flexbox">
+      <h2 >Robotix Club</h2>
+      <div className={`${isOpen ? "display" : "displayno"} navbar`}>
+      <Link to="/">home</Link>
+      <Link to="/about">about</Link>
+      <Link to="/events">event</Link>
+      <Link to="/project">project</Link>
+      </div></div>
       {isOpen ? (
         <CrossIcon onClick={() => setOpen(false)} className="menu_icons cross_icon" />
       ) : (
