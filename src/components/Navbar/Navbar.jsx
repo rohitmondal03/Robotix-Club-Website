@@ -16,6 +16,7 @@ export default function Navbar() {
       <Link to="/about">about</Link>
       <Link to="/events">event</Link>
       <Link to="/project">project</Link>
+      <Link to="/teams">Team</Link>
       </div></div>
       {isOpen ? (
         <CrossIcon onClick={() => setOpen(false)} className="menu_icons cross_icon" />
