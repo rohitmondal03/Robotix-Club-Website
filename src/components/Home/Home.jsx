@@ -127,9 +127,9 @@ function Home() {
       <div id="about"className="about sec">
         <div className="about_txt">
           <h1 className="about_title">
-            Transform your imagination into reality and beyond
+          ROBOTIX CLUB
           </h1>
-          <p>We’re an expert visual communications company that delivers your messages with impact every time. With over 20 years of mastery in different mediums, timelines and space, you can expect a strong hands-on and client-centric approach to all our projects. As passionate believers in the power of creative exploration, we are nimble and responsive to all your needs.</p>
+          <p>The Robotix Club of NIT RAIPUR is a vibrant and innovative community that brings together students with a passion for robotics, automation, and technology. Founded on the principles of collaboration, creativity, and hands-on learning, the club serves as a dynamic hub where students explore the fascinating world of robotics through various projects, workshops, competitions, and events.</p>
         </div>
         <div   className="about_graphic">
           <svg viewBox="-25 0 1133.51 1133.51">
