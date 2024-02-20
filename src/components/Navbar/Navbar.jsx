@@ -9,14 +9,15 @@ export default function Navbar() {
   return (
     <nav className={`${isOpen ? "navbar_expand" : "navbar_normal"} navbar`}>
       <div className="flexbox">
-        <h2>Robotix Club</h2>
-        <div className={`${isOpen ? "display" : "displayno"} navbar`}>
-          <Link to="/">home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/events">event</Link>
-          <Link to="/project">project</Link>
-        </div>
-      </div>
+
+      <h2 >Robotix Club</h2>
+      <div className={`${isOpen ? "display-nav" : "displayno"} navbar`}>
+      <Link to="/">home</Link>
+      <Link to="/about">about</Link>
+      <Link to="/events">event</Link>
+      <Link to="/project">project</Link>
+      </div></div>
+
       {isOpen ? (
         <CrossIcon
           onClick={() => setOpen(false)}

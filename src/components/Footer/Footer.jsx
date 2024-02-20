@@ -12,20 +12,22 @@ const Footer = () => {
               flexDirection: 'column',
               alignItems: 'center',
             }}>
-              <img src="src/components/Footer/8421.webp" alt="Robotix Club NITRR" style={{
+              <img src="src/components/Footer/blackicon.png" alt="Robotix Club NITRR" style={{
                 width: '100px',
-                height: 'auto'
+                height: 'auto',
+                color:'black',
+                 filter: 'grayscale(100%)', 
               }} />
-              <p style={{ marginTop: '5px' }}>Robotix Club NITRR</p>
+              <p  className="color_black"style={{ marginTop: '5px' }}>Robotix Club NITRR</p>
             </div>
             <div className="col-sm-4 col-md-3 item">
-              <h3>Robotix Club</h3>
+              <h3  className="color_black">Robotix Club</h3>
               <ul>
                 <li><a href="#">Robolympiad 2024</a></li>
               </ul>
             </div>
             <div className="col-sm-4 col-md-3 item">
-              <h3>Links</h3>
+              <h3  className="color_black">Links</h3>
               <ul>
                 <li><a href="#">About US</a></li>
                 <li><a href="#">Team</a></li>

@@ -1,12 +1,17 @@
 .footer-clean {
   padding:50px 0;
-  background-color:#fff;
-  color:#4b4c4d;
+  background-color:#e6b030;
+ /* #FFD369 */
+  color:#202020;
   text-align: center;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   box-shadow: 0px -20px 0px rgba(0, 0, 0, 1);
 }
-
+.color_black{
+  color: black;
+  font-weight: 600;
+  font-size: 1.2em;
+}
 .footer-clean h3 {
   margin-top:0;
   margin-bottom:12px;
@@ -84,5 +89,7 @@
   margin-top:14px;
   margin-bottom:0;
   font-size:13px;
-  opacity:0.6;
+  color: #000;
+  font-weight: 200;
+  opacity:1;
 }
