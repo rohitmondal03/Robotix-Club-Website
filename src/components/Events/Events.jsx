@@ -16,6 +16,12 @@ const eventsData = [
     description: 'Showcase your robotics skills in a friendly competition.',
     img: 'bg2.jpg', 
   },
+  {
+    title: 'Robo Soccer',
+    date: 'March 10, 2024',
+    description: 'Showcase your robotics skills in a friendly competition.',
+    img: 'bg2.jpg', 
+  },
 ];
 
 const Events = () => (

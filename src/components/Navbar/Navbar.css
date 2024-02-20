@@ -6,7 +6,7 @@
 
   position: fixed;
   width: 100%;
- 
+
   z-index: 99999;
 
 }
@@ -29,22 +29,24 @@
   background-color: #f6bb31;
   color: rgb(0, 0, 0);
 }
-.flexbox{
 
+.flexbox {
   font-size: 1.6rem;
   font-weight: 900;
   display: flex;
   flex-direction: column;
 }
-.display{
+
+.display {
   margin-top: 2em;
   font-weight: 600;
   flex-direction: column;
-
 }
-.displayno{
+
+.displayno {
   display: none;
 }
+
 .menu_icons {
   scale: 1.25;
   border-radius: 5px;
