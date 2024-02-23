@@ -9,7 +9,7 @@ import Products from "./components/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
 
 import PreLoader from "./components/PreLoader/preLoader";
-import Projects from "./components/Projects/Projects";
+import Project from "./components/Projects/Project";
 import "./App.css";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/events" element={<Events />} />
-              <Route path="/projects" element={<Projects />} />
+              <Route path="/projects" element={<Project />} />
               {/* <Route path="/numberanimation" element={<NumberAnimation targetNumber = {300}/>} /> */}
             </Routes>
           </main>
