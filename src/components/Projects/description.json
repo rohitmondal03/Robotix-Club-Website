@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "project1",
+        "organization":"organiser1",
+        "imageUrl":"#",
+        "content": "<ul data-aos=\"zoom-out-up\"><li>Integration of code is completed and the head is fully functional and working.</li><li>The head can maintain eye contact with the concerned person and talk to the person answering his/her questions like a normal human.</li><li>Can learn about humans it views and later recognize them in one shot face recognition.</li><li>Presented it in Techevince.</li><li>Working now on hand and chest of humanoid.</li></ul>"
+    },      
+    {
+        "id": 2,
+        "title": "project2",
+        "organization":"organiser2",
+        "imageUrl":"#",
+        "content": "<ul data-aos=\"zoom-out-up\"><li>Integration of code is completed and the head is fully functional and working.</li><li>The head can maintain eye contact with the concerned person and talk to the person answering his/her questions like a normal human.</li><li>Can learn about humans it views and later recognize them in one shot face recognition.</li><li>Presented it in Techevince.</li><li>Working now on hand and chest of humanoid.</li></ul>"
+    },
+    {
+        "id": 3,
+        "title": "project3",
+        "organization":"organiser3",
+        "imageUrl":"#",
+        "content": "<ul data-aos=\"zoom-out-up\"><li>Integration of code is completed and the head is fully functional and working.</li><li>The head can maintain eye contact with the concerned person and talk to the person answering his/her questions like a normal human.</li><li>Can learn about humans it views and later recognize them in one shot face recognition.</li><li>Presented it in Techevince.</li><li>Working now on hand and chest of humanoid.</li></ul>"
+    }
+]
