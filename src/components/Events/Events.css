@@ -1,12 +1,16 @@
 /* App.css */
+:root {
+    --header-bg: #FFD369;
+}
 .App {
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #222831;
-    color: white;
+    background-color: var(--header-bg);
+    /* color: white; */
+    font-weight: 700;
     padding: 20px;
     text-align: center;
     font-size: 1.5rem;
@@ -16,10 +20,16 @@ main {
     padding-top: 2px;
 }
 
+.Event {
+    background: var(--bg);
+    margin-top: 78px;
+}
+
 .event-list {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 
 .event {
@@ -31,7 +41,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 10px;
+    margin: 30px;
     max-width: 400px;
     min-height: 300px;
     position: relative;
@@ -40,8 +50,11 @@ main {
     -webkit-transition: all 1s;
 }
 
-.event p {
-    /* color: white; */
+.slideLeftIn {
+    animation: slideLeftIn 2s;
+}
+.slideRightIn {
+    animation: slideRightIn 2s;
 }
 
 .event h1 {
@@ -62,9 +75,9 @@ main {
     z-index: 1;
 }
 
-.event:hover {
+.eventContainer:hover .event {
     transform: rotate3d(0,10,-1,180deg);    /* Card element rotating around y axis */
-    box-shadow: -5px 8px 40px #000;
+    box-shadow: -5px 8px 40px #b1b1b1;
     opacity: 1 !important;
 }
 
@@ -72,11 +85,34 @@ main {
     z-index: 1;
 }
 
-.event:hover .innerBox {
+.eventContainer:hover .innerBox {
     opacity: 0;
 }
 
 .event:hover::before{
     /* opacity: 0.8; */
     background: none;
+}
+
+@keyframes slideLeftIn {
+    from {
+        opacity: 0;
+        transform: translatex(-100vw);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes slideRightIn {
+    from {
+        opacity: 0;
+        transform: translatex(100vw);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
 }

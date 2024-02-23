@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, memo } from "react"; // Import useState
 import { Routes, Route } from "react-router-dom";
 
@@ -7,7 +8,6 @@ import Events from "./components/Events/Events";
 import Products from "./components/Products/Products";
 // import NumberAnimation from './components/Animation/Animation';
 import Navbar from "./components/Navbar/Navbar";
-
 import PreLoader from "./components/PreLoader/preLoader";
 import Project from "./components/Projects/Project";
 import "./App.css";
@@ -33,12 +33,16 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/events" element={<Events />} />
+
               <Route path="/projects" element={<Project />} />
               {/* <Route path="/numberanimation" element={<NumberAnimation targetNumber = {300}/>} /> */}
+
             </Routes>
           </main>
+          <Footer />
         </div>
       )}
+
     </>
   );
 }
