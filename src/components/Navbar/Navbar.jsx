@@ -10,7 +10,6 @@ export default function Navbar() {
     <nav className={`${isOpen ? "navbar_expand" : "navbar_normal"} navbar`}>
       <div className="flexbox">
 
-
       <h2 >Robotix Club</h2>
       <div className={`${isOpen ? "display-nav" : "displayno"} navbar`}>
       <Link to="/">home</Link>
@@ -18,7 +17,6 @@ export default function Navbar() {
       <Link to="/events">event</Link>
       <Link to="/project">project</Link>
       </div></div>
-
 
       {isOpen ? (
         <CrossIcon
