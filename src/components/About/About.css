@@ -14,43 +14,32 @@
 
 body {
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
-}
-
-.aboutPage {
-    /* background: #000; */
+    /* overflow-x: hidden; */
 }
 
 main {
-    min-height: calc(100vh - 100px);
-    /* display: flex; */
     align-items: center;
+    background: var(--bg);
+    min-height: calc(100vh - 100px);
     justify-content: center;
-    /* background: var(--bg); */
+    width: 100%;
 }
 
 .header {
     background-color: var(--bg);
     color: #fff;
-    /* display: flex; */
     justify-content: center;
     text-align: center;
-    /* padding: 28px 0; */
-    overflow: hidden;
 }
 
 .header h2 {
     font-size: 3em;
     font-weight: 700;
     color: #fff;
-    /* color: #000; */
-    /* text-shadow: 1px 1px 10px #FFD369; */
     letter-spacing: 5px;
     margin: 0;
-    /* overflow: hidden; */
     padding: 0 20px;
     padding-bottom: 0;
-    /* border: 1px solid #000; */
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -60,8 +49,16 @@ main {
 
 .about-section {
     /* text-align: center; */
-    margin-top: 100px;
     animation: fadeIn 1s ease-in-out;
+    width: 100%;
+    overflow: visible;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
 }
 
 .description {
@@ -83,7 +80,6 @@ main {
     text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 20px;
     letter-spacing: 1px;
 }
 
@@ -98,17 +94,18 @@ main {
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: rgba(250, 235, 215, 0.844);
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #555;
+    color: #8a8a8a;
 }
 
 .teamDetails {
     display: flex;
-    background: var(--bg2);
+    background: var(--header-bg);
     justify-content: center;
     color: white;
     animation: fadeIn 1s ease-in-out;
@@ -134,7 +131,6 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 15px 50px;
-    /* margin: 0 20px; */
 }
 
 .para {
@@ -145,20 +141,18 @@ p {
     font-size: 1.5rem;
 }
 
-.footer-clean {
-    box-shadow: 0px -20px 0px var(--bg2)!important;
-}
-
 /* Add animations using CSS */
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(-20px);
+        z-index: 0;
     }
 
     to {
         opacity: 1;
         transform: translateY(0);
+        z-index: 10000;
     }
 }
 
@@ -173,7 +167,6 @@ p {
     }
 }
 
-
 @keyframes glow {
     
     from {
@@ -183,11 +176,73 @@ p {
     to {
         text-shadow: 0 0 5px #fff, 0 0 40px #fff, 0 0 20px var(--txtShadow), 0 0 100px var(--txtShadow), 0 0 10px var(--txtShadow), 0 0 100px var(--txtShadow), 0 0 100px var(--txtShadow);
     }
-    /* from {
-        text-shadow: 0 0 10px #fff, 0 0 30px var(--txtShadow0), 0 0 10px var(--txtShadow0), 0 0 50px var(--txtShadow0), 0 0 40px var(--txtShadow0), 0 0 15px var(--txtShadow0), 0 0 2px var(--txtShadow0);
+}
+
+
+
+@media (max-width: 1000px) {
+    .description {
+        flex-direction: column;
+        align-items: center;
     }
 
-    to {
-        text-shadow: 0 0 5px #fff, 0 0 40px #fff, 0 0 20px var(--txtShadow), 0 0 100px var(--txtShadow), 0 0 10px var(--txtShadow), 0 0 100px var(--txtShadow), 0 0 100px var(--txtShadow);
-    } */
+    .desc {
+        margin-bottom: 50px;
+        /* width: 80%; */
+    }
+    
+    .desc p {
+        text-align: center;
+    }
+
+    #desc1 p {
+        text-align: center;
+    }
+}
+
+@media ( max-width: 900px ) {
+    .teamDetails > div {
+        padding: 0;
+    }
+}
+
+@media ( max-width: 650px) {
+    .content {
+        margin-top: 50px;
+    }
+    
+    .description {
+        padding: 0;
+    }
+
+    .desc {
+        padding: 0;
+    }
+
+    .desc p {
+        padding: 20px;
+    }
+
+    .teamDetails {
+        flex-direction: column;
+    }
+
+    .teamDetails > div {
+        padding: 0 20px;
+    }
+
+    .para {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        /* justify-content: flex-end; */
+        /* gap: 50px; */
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutPage{
+        font-size: 0.8rem;
+    }
 }
