@@ -32,7 +32,7 @@ const NumberAnimation = ({ targetNumber }) => {
 
   useEffect(() => {
     if (isVisible && !animationComplete) {
-      const duration = 40;
+      const duration = 80;
       const step = (targetNumber - number) / duration;
       let currentNumber = number;
 

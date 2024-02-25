@@ -1,0 +1,29 @@
+.event-popup {
+    align-items: center;
+    background: #000000d1;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    /* left: 0; */
+    /* transform: translateX(-35vw) translateY(100px); */
+    transition: all 1s;
+    /* top: 0; */
+    position: fixed;
+    width: 50vw;
+    z-index: 10;
+}
+
+/* SLant edge corner */
+
+.event-popup h2 {
+    font-size: 1.3rem;
+    color: antiquewhite;
+    margin-bottom: 15px;
+}
+
+.event-popup p {
+    color: antiquewhite;
+}

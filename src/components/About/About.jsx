@@ -13,7 +13,7 @@ function About() {
             <div className="flex min-w-fit px-4 py-7 header">
               <h2 id="typewriter">Few Words About Us</h2>
             </div>
-            <div className="container">
+            <div className="container-fluid content">
               <div className="description">
                 <div className="desc" id="desc1">
                   <h2 classNameName="">Who Are We ??</h2>
