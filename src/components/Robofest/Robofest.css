@@ -1,90 +1,79 @@
-.fest{
+.fest {
   display: flex;
   flex-direction: row;
   overflow: hidden;
   background-color: #e6b030;
-  
 }
-.fest_bg{
+.fest_bg {
   transform: translateY(-20px);
 }
 .l-heading {
-    font-size: 4rem;
-    line-height: 4.4rem;
-    font-weight: 800;
-    
-  }
-  span {
-    display: block;
-  }
-  
-  .sub-title {
-    margin: 2rem 0 1rem 0;
-    font-size: 1.4rem;
-    color: #494949;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  
-  
-  
-  
-  
-  .imge {
-   height: 800px;
-   width: 60%;
-    padding-left: 4rem;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .main1 {
-    width: 60%;
-    padding-left: 4rem;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-  }
-  
-  @media screen and (max-width: 414px) {
-    body {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .main1 {
-      width: 100%;
-      text-align: center;
-      padding-left: 0.6rem;
-      
-      
+  font-size: 4rem;
+  line-height: 4.4rem;
+  font-weight: 800;
+}
+span {
+  display: block;
+}
 
-    }
-    .l-heading {
-      font-size: 2rem;
-      line-height: 2.5rem;
-    }
-    .sub-title {
-      font-size: 1rem;
-      margin: 1.6rem 0 1.8rem 0;
-    }
-    aside {
-      width: 100%;
-     
-    }
-    img {
-      display: none;
-    }
+.sub-title {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.4rem;
+  color: #494949;
+}
+
+a {
+  text-decoration: none;
+}
+
+.imge {
+  height: 800px;
+  width: 60%;
+  padding-left: 4rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 {
+  margin-top: 10rem;
+  width: 60%;
+  padding-left: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .btn {
+  .main1 {
+    width: 100%;
+    text-align: center;
+    padding-left: 0.6rem;
+  }
+  .l-heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .sub-title {
+    font-size: 1rem;
+    margin: 1.6rem 0 1.8rem 0;
+  }
+  aside {
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
+}
+
+.btn {
   border-radius: 4px;
   text-transform: uppercase;
   position: relative;
@@ -101,16 +90,10 @@
   width: 500px;
 }
 
-
-
 .orange {
-    color: rgb(2, 2, 2);
-    background-image: linear-gradient(120deg,    #e6b030 50%, rgb(0, 0, 0) 50%);
+  color: rgb(2, 2, 2);
+  background-image: linear-gradient(120deg, #e6b030 50%, rgb(0, 0, 0) 50%);
 }
-
-
-
-
 
 .btn:hover {
   color: #fff;
@@ -123,7 +106,7 @@
   box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
 }
 
-.svgbg{
+.svgbg {
   height: 0px;
 }
 .svg1 {
@@ -133,8 +116,6 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  
-  
 }
 
 .svg1 svg {
@@ -145,7 +126,7 @@
 }
 
 .svg1 .shape-fill {
-  fill: #0000008C;
+  fill: #0000008c;
 }
 
 .svg2 {
@@ -168,7 +149,7 @@
   fill: #000000;
 }
 
-.fest_robo{
+.fest_robo {
   height: auto;
   width: 300px;
   z-index: 33;
