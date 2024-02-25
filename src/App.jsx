@@ -9,7 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import PreLoader from './components/PreLoader/preLoader';
 import Footer from './components/Footer/Footer';
 import './App.css'
-
+import Robofest from './components/Robofest/Robofest';
 
 
 
@@ -33,6 +33,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/events" element={<Events />} />
+              <Route path="/robofest" element={<Robofest />} />
             </Routes>
           </main>
           <Footer />
