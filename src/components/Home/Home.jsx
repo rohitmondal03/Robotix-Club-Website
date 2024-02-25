@@ -4,6 +4,8 @@ import React, { memo, useState, useEffect } from 'react';
 
 import  {  useRef } from "react";
 import "./Home.css"
+
+import Robofest from '../Robofest/Robofest';
 import { gsap } from "gsap";
     
 import { CustomEase } from "gsap/CustomEase";
@@ -179,8 +181,9 @@ function Home() {
     </main>
   </div> 
 </div>
-
+<Robofest/>
     </>
+    
   );
 }
 
