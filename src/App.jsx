@@ -7,7 +7,12 @@ import Events from './components/Events/Events';
 import Navbar from './components/Navbar/Navbar';
 
 import PreLoader from './components/PreLoader/preLoader';
+
+import TeamPage from './components/Teams/Teams.jsx';
+import Projects from './components/Projects/Projects';
+
 import Footer from './components/Footer/Footer';
+
 import './App.css'
 import Robofest from './components/Robofest/Robofest';
 
@@ -33,7 +38,12 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/events" element={<Events />} />
+
+              <Route path="/teams" element={<TeamPage />} />
+              {/* <Route path="/numberanimation" element={<NumberAnimation targetNumber = {300}/>} /> */}
+
               <Route path="/robofest" element={<Robofest />} />
+
             </Routes>
           </main>
           <Footer />
