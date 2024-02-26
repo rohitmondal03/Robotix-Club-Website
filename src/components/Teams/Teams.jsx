@@ -137,6 +137,17 @@ const TeamPage = () => {
           </div>
         </div>
 
+
+        <headcoordnator>
+          <div>
+             <div>
+              
+             </div>
+          </div>
+        </headcoordnator>
+
+
+
     
        {/* Executives Section */}
         <div className="section">
@@ -170,7 +181,7 @@ const TeamPage = () => {
                 ))}
             </div>
         </div>
-
+          <hr className='horizontal'/>
         {/* Contact Form Section */}
         <div className="section">
           <h2 className="section-heading5">

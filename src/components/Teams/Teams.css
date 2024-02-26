@@ -79,7 +79,7 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
-    width: 280px; /* Adjust the width as needed */
+    width: 280px; 
     height: 310px;
     /* margin: 10px; */
     object-fit: cover;
@@ -90,8 +90,8 @@
   
   .instagram-icon {
     padding-top: 40%;
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
+    width: 40px; 
+    height: 40px; 
     object-fit: scale-down;
     border-radius: 50%;
     cursor: pointer;
@@ -99,12 +99,12 @@
   }
   
   .photo:hover .instagram-icon {
-    transform: scale(1.4); /* Adjust the scale factor as needed */
+    transform: scale(1.4); 
   }
   
   
   .photo1:hover .instagram-icon {
-    transform: scale(1.2); /* Adjust the scale factor as needed */
+    transform: scale(1.2); 
   }
 
   .hover-effect {
@@ -165,21 +165,18 @@
   }
 
   .names-grid {
-    /* Your styles for the names-grid */
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust as needed */
-    gap: 10px; /* Adjust as needed */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
   }
   
   .name-row {
-    /* Your styles for the name-row */
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust as needed */
+    gap: 10px; 
   }
   
   .name-grid-item {
-    /* Your styles for the name-grid-item */
     padding:5%;
     flex: 1;
   }
@@ -190,7 +187,8 @@
   
   .executive-designation {
     margin-top: 2%;
-    color: #555; /* Adjust color as needed */
+    color: #555; 
   }
-
- 
+ /* .horizontal{
+   color:black;
+ } */
