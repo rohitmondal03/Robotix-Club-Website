@@ -1,7 +1,7 @@
-import React, {memo} from 'react';
-import EventList from './EventList';
+import React, { memo } from 'react';
+import EventList from './components/EventList/EventList';
 
-import '../Events/Events.css'
+import './Events.css'
 
 const eventsData = [
   {
@@ -14,7 +14,13 @@ const eventsData = [
     title: 'Robotics Competition',
     date: 'February 15, 2024',
     description: 'Showcase your robotics skills in a friendly competition.',
-    img: 'bg2.jpg', 
+    img: 'bg2.jpg',
+  },
+  {
+    title: 'Robo Soccer',
+    date: 'March 10, 2024',
+    description: 'Showcase your robotics skills in a friendly competition.',
+    img: 'bg2.jpg',
   },
 ];
 
@@ -24,7 +30,11 @@ const Events = () => (
       <h1>Upcoming Robotics Events</h1>
     </header>
     <main>
-      <EventList events={eventsData} />
+      <div className="event-list">
+        {eventsData.map((event, index) => (
+          <EventList key={index} {...event} />
+        ))}
+      </div>
     </main>
   </div>
 );
