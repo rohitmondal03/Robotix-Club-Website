@@ -38,7 +38,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/events" element={<Events />} />
-
+              <Route path="/project" element={<Projects />} />
               <Route path="/teams" element={<TeamPage />} />
               {/* <Route path="/numberanimation" element={<NumberAnimation targetNumber = {300}/>} /> */}
 
