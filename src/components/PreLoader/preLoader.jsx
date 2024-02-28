@@ -3,7 +3,7 @@ import preloader2Gif from './Loading.gif';
 import './Preloader.css';
 
 
-const PreLoader = () => {
+function PreLoader() {
   return (
     <div className="preloader-container">
       <img src={preloaderGif} className="preloader-image" alt="BE PATIENT" />
