@@ -992,6 +992,7 @@
       transform: translateX(30%);
     }
   }
+
   .services {
     max-width: 1700px;
     margin: 0 auto;
@@ -1295,4 +1296,17 @@
       gap: 60px;
     }
   }
-  
+  @media screen and (max-width: 630px) {
+    #about{
+      flex-direction: column-reverse;
+    }
+    .about_graphic {
+      transform: translate(-500px,-500px);
+    }
+    .about_txt {
+      transform: translateY(-500px);
+    }
+    .main_section{
+      height: 1000px;
+    }
+  }
