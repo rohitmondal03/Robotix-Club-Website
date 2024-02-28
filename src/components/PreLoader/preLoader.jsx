@@ -1,6 +1,6 @@
 import preloaderGif from './robot_arm.gif';
 import preloader2Gif from './Loading.gif';
-import './Preloader.css';
+import './preloader.css';
 
 
 function PreLoader() {
