@@ -1,10 +1,11 @@
 // Event.jsx
 import { memo, useRef, useEffect, useState } from "react";
+
 import EventPopUp from "../EventPopUp/EventPopUp";
 import './EventList.css'
 
+const EventList = ({ title, date, time, venue ,img }) => {
 
-const EventList = ({ title, date, description, img }) => {
   const targetRef = useRef(null);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -12,7 +13,7 @@ const EventList = ({ title, date, description, img }) => {
     setIsPopupOpen(!isPopupOpen);
   };
 
-  const [pseudoElement, setPseudoElement] = useState({
+  const [pseudoElement] = useState({
     backgroundSize: "cover",
     backgroundImage: `url(${img})`
   });
@@ -58,14 +59,15 @@ const EventList = ({ title, date, description, img }) => {
             <div className="innerBox">
               <h1>{title}</h1>
               <p>Date: {date}</p>
-              <p>{description}</p>
+              <p>Time: {time}</p>
+              <p>venue: {venue}</p>
             </div>
           </div>
         </div>
       </div>
-      {isPopupOpen && (<EventPopUp title={title} date={date} description={description} onClose={togglePopUp} />)}
+      {isPopupOpen && (<EventPopUp title={title} date={date} time={time} venue={venue} onClose={togglePopUp} />)}
     </>
   );
 };
 
-export default memo(EventList);
+export default EventList;

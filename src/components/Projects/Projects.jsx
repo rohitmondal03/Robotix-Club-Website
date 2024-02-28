@@ -1,7 +1,9 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import "./Projects.css";
+
 import logo from "../Projects/ROBO.gif";
+import "./Projects.css";
 
 function Projects() {
   const [typeEffect] = useTypewriter({

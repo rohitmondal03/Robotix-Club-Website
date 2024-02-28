@@ -81,10 +81,10 @@ function Robofest() {
             </h1>
             <p className="sub-title anim1">
             The stage is set, the robots are ready – join us as we kick off RoboFest, a symposium of innovation and a celebration of technological brilliance. People bring their awesome robot creations to compete
-              in different events. It's not just about winning – it's a chance
+              in different events. It&apos;s not just about winning – it&apos;s a chance
               for robot enthusiasts to show off their creations, learn from each
               other, and celebrate the amazing things robots can do. There are
-              exciting robot battles, tricky challenges, and lots of fun. It's a
+              exciting robot battles, tricky challenges, and lots of fun. It&apos;s a
               big gathering of smart and creative people who love playing with
               robots and pushing the limits of what they can do.
             </p>

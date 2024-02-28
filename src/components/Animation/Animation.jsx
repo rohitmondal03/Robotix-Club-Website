@@ -30,6 +30,7 @@ const NumberAnimation = ({ targetNumber }) => {
     };
   }, []);
 
+
   useEffect(() => {
     if (isVisible && !animationComplete) {
       const duration = 80;
@@ -57,5 +58,10 @@ const NumberAnimation = ({ targetNumber }) => {
     </div>
   );
 };
+
+
+NumberAnimation.propTypes = {
+  targetNumber: number,
+}
 
 export default NumberAnimation;

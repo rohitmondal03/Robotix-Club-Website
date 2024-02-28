@@ -1,0 +1,59 @@
+[
+    {
+      "title": "ROBOTHON",
+      "date": "MARCH 16th & 17th, 2024",
+      "time": "10:30 AM to next day 12:00PM",
+      "venue": "Central Computer Center (CCC)",
+      "img": "events//robothon.jpg"
+    },
+    {
+      "title": "IDEATHON",
+      "date": "MARCH 16, 2024",
+      "time": "10:30 AM to 1:00 PM",
+      "venue": "ARCHITECTURE AUDITORIUM",
+      "img": "events//ideathon.png"
+    },
+    {
+      "title": "ROBOFIGHT",
+      "date": "MARCH 16, 2024",
+      "time": "2:00 PM TO 5:00 PM",
+      "venue": "AMUL PARLOUR",
+      "img": "events//robofight.jpg"
+    },
+    {
+      "title": "ROBOQUIZ",
+      "date": "MARCH 16, 2024",
+      "time": "5:00 PM to 6:00PM",
+      "venue": "G4",
+      "img": "events//roboquiz.jpg"
+    },
+    {
+      "title": "ROBOEXPO",
+      "date": "MARCH 16, 2024",
+      "time": "2:00 PM to 6:00 PM",
+      "venue": "In Front of Central Garden",
+      "img": "events//roboexpo.webp"
+    },
+    {
+      "title": "ASSEMBLERS",
+      "date": "MARCH 16, 2024",
+      "time": "11:00 AM to 1:00 PM",
+      "venue": "G4",
+      "img": "events//assemblers.avif"
+    },
+    {
+      "title": "ROBO RACE 2024",
+      "date": "MARCH 16, 2024",
+      "time": "2:00 PM to 6:00 PM",
+      "venue": "Ground",
+      "img": "events//roborace.jpg"
+    },
+    {
+      "title": "SPEAKER'S SESSION",
+      "date": "MARCH 16, 2024",
+      "time": "10:00 AM to 11:00 AM",
+      "venue": "E-HALL",
+      "img": "events//speakersession.png"
+    }
+  ]
+  
