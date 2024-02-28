@@ -7,7 +7,7 @@ import './EventList.css'
 let bg;
 var elementStyle;
 
-const EventList = ({ title, date, description, img }) => {
+const EventList = ({ title, date, time, venue ,img }) => {
   const targetRef = useRef(null);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -61,12 +61,13 @@ const EventList = ({ title, date, description, img }) => {
             <div className="innerBox">
               <h1>{title}</h1>
               <p>Date: {date}</p>
-              <p>{description}</p>
+              <p>Time: {time}</p>
+              <p>venue: {venue}</p>
             </div>
           </div>
         </div>
       </div>
-      {isPopupOpen && (<EventPopUp title={title} date={date} description={description} onClose={togglePopUp} />)}
+      {isPopupOpen && (<EventPopUp title={title} date={date} time={time} venue={venue} onClose={togglePopUp} />)}
     </>
   );
 };

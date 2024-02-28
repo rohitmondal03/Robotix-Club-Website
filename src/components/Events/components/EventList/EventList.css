@@ -12,6 +12,7 @@
 .eventCard {
     /* border: 1px solid #fa0000; */
     opacity: 0;
+    width: 100vh;
 }
 
 .eventIn {
@@ -45,7 +46,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #ffffff41;
+    background: #bcc45341;
     backdrop-filter: blur(4px);
     height: 100%;
     width: 100%;
