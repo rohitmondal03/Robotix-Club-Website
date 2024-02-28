@@ -1,4 +1,3 @@
-import React, { memo } from 'react';
 import EventList from './components/EventList/EventList';
 
 import './Events.css'
@@ -20,4 +19,4 @@ const Events = () => (
   </div>
 );
 
-export default memo(Events);
+export default Events;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home/Home';
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default memo(App);
+export default App;

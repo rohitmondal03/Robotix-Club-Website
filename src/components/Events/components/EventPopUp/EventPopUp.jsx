@@ -1,4 +1,3 @@
-import React, { memo, useRef, useEffect, useState } from "react";
 import './EventPopUp.css'
 
 const EventPopUp = ({ title, date, time, venue, onClose }) => {

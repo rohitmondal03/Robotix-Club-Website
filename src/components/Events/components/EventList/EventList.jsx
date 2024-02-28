@@ -1,11 +1,8 @@
 // Event.jsx
-import React, { memo, useRef, useEffect, useState } from "react";
+import React, {useRef, useEffect, useState } from "react";
 import EventPopUp from "../EventPopUp/EventPopUp";
 import './EventList.css'
 
-
-let bg;
-var elementStyle;
 
 const EventList = ({ title, date, time, venue ,img }) => {
   const targetRef = useRef(null);
@@ -15,7 +12,7 @@ const EventList = ({ title, date, time, venue ,img }) => {
     setIsPopupOpen(!isPopupOpen);
   };
 
-  const [pseudoElement, setPseudoElement] = useState({
+  const [pseudoElement] = useState({
     backgroundSize: "cover",
     backgroundImage: `url(${img})`
   });
@@ -72,4 +69,4 @@ const EventList = ({ title, date, time, venue ,img }) => {
   );
 };
 
-export default memo(EventList);
+export default EventList;

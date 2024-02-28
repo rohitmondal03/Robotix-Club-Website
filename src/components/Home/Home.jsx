@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import './Home.css';
 

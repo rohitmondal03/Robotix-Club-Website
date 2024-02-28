@@ -1,7 +1,7 @@
-import React from 'react';
-import './Preloader.css';
 import preloaderGif from './robot_arm.gif';
 import preloader2Gif from './Loading.gif';
+import './Preloader.css';
+
 
 const PreLoader = () => {
   return (

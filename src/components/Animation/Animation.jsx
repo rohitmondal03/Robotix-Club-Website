@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import propTypes, { number } from 'prop-types';
 import './Animation.css';
 
 const NumberAnimation = ({ targetNumber }) => {
@@ -30,6 +31,7 @@ const NumberAnimation = ({ targetNumber }) => {
     };
   }, []);
 
+
   useEffect(() => {
     if (isVisible && !animationComplete) {
       const duration = 80;
@@ -57,5 +59,10 @@ const NumberAnimation = ({ targetNumber }) => {
     </div>
   );
 };
+
+
+NumberAnimation.propTypes = {
+  targetNumber: number,
+}
 
 export default NumberAnimation;

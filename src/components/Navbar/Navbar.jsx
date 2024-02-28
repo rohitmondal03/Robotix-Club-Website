@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, CrossIcon, Divide } from "lucide-react";
+import { Menu, CrossIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
