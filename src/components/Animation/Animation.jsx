@@ -59,9 +59,4 @@ const NumberAnimation = ({ targetNumber }) => {
   );
 };
 
-
-NumberAnimation.propTypes = {
-  targetNumber: number,
-}
-
 export default NumberAnimation;
