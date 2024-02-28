@@ -1,20 +1,19 @@
-import React, { memo } from "react";
 import "./Robofest.css";
 
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
-import { CustomEase } from "gsap/CustomEase";
-import { RoughEase, ExpoScaleEase, SlowMo } from "gsap/EasePack";
+// import { CustomEase } from "gsap/CustomEase";
+// import { RoughEase, ExpoScaleEase, SlowMo } from "gsap/EasePack";
 
-import { Flip } from "gsap/Flip";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Observer } from "gsap/Observer";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { Draggable } from "gsap/Draggable";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { EaselPlugin } from "gsap/EaselPlugin";
-import { PixiPlugin } from "gsap/PixiPlugin";
-import { TextPlugin } from "gsap/TextPlugin";
+// import { Flip } from "gsap/Flip";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { Observer } from "gsap/Observer";
+// import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+// import { Draggable } from "gsap/Draggable";
+// import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+// import { EaselPlugin } from "gsap/EaselPlugin";
+// import { PixiPlugin } from "gsap/PixiPlugin";
+// import { TextPlugin } from "gsap/TextPlugin";
 
 function Robofest() {
   //   gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin,EaselPlugin,PixiPlugin,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase);
@@ -44,7 +43,7 @@ function Robofest() {
     <>
       <div className="fest_bg">
         <div className="svgbg">
-          <div class="svg1  ">
+          <div className="svg1  ">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -53,13 +52,13 @@ function Robofest() {
             >
               <path
                 d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-                class="shape-fill"
+                className="shape-fill"
               ></path>
             </svg>
           </div>
         </div>
         <div className="svgbg">
-          <div class="svg2">
+          <div className="svg2">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +67,7 @@ function Robofest() {
             >
               <path
                 d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-                class="shape-fill"
+                className="shape-fill"
               ></path>
             </svg>
           </div>
@@ -76,11 +75,11 @@ function Robofest() {
 
         <div className="fest">
           <div className="main1">
-            <h1 class="l-heading anim1">
+            <h1 className="l-heading anim1">
               <span> About RoboFest</span>
               {/* <span> DONE RIGHT</span> */}
             </h1>
-            <p class="sub-title anim1">
+            <p className="sub-title anim1">
             The stage is set, the robots are ready – join us as we kick off RoboFest, a symposium of innovation and a celebration of technological brilliance. People bring their awesome robot creations to compete
               in different events. It's not just about winning – it's a chance
               for robot enthusiasts to show off their creations, learn from each
@@ -89,7 +88,7 @@ function Robofest() {
               big gathering of smart and creative people who love playing with
               robots and pushing the limits of what they can do.
             </p>
-            <a href="#" class="btn anim1 orange">
+            <a href="#" className="btn anim1 orange">
              Registration Link
             </a>
           </div>
@@ -106,4 +105,4 @@ function Robofest() {
   );
 }
 
-export default memo(Robofest);
+export default Robofest;

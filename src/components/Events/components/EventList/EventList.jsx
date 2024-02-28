@@ -1,11 +1,8 @@
 // Event.jsx
-import React, { memo, useRef, useEffect, useState } from "react";
+import { memo, useRef, useEffect, useState } from "react";
 import EventPopUp from "../EventPopUp/EventPopUp";
 import './EventList.css'
 
-
-let bg;
-var elementStyle;
 
 const EventList = ({ title, date, description, img }) => {
   const targetRef = useRef(null);

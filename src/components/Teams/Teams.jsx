@@ -1,4 +1,3 @@
-import React from 'react';
 import './Teams.css';
 import ContactForm from './contact.jsx';
 
