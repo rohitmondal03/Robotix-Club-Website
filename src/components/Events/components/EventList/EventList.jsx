@@ -1,10 +1,11 @@
 // Event.jsx
-import React, {useRef, useEffect, useState } from "react";
+import { memo, useRef, useEffect, useState } from "react";
+
 import EventPopUp from "../EventPopUp/EventPopUp";
 import './EventList.css'
 
-
 const EventList = ({ title, date, time, venue ,img }) => {
+
   const targetRef = useRef(null);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);

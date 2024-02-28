@@ -1,5 +1,5 @@
-import ContactForm from './contact.jsx';
 import './Teams.css';
+import ContactForm from './contact.jsx';
 
 const TeamPage = () => {
   const coordinators = [

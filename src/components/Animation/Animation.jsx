@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import propTypes, { number } from 'prop-types';
 import './Animation.css';
 
 const NumberAnimation = ({ targetNumber }) => {
