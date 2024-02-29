@@ -1,28 +1,8 @@
-import React, { memo } from 'react';
 import EventList from './components/EventList/EventList';
 
 import './Events.css'
 
-const eventsData = [
-  {
-    title: 'Robotics Workshop',
-    date: 'January 25, 2024',
-    description: 'Learn the basics of robotics and hands-on projects.',
-    img: 'bg1.jpg',
-  },
-  {
-    title: 'Robotics Competition',
-    date: 'February 15, 2024',
-    description: 'Showcase your robotics skills in a friendly competition.',
-    img: 'bg2.jpg',
-  },
-  {
-    title: 'Robo Soccer',
-    date: 'March 10, 2024',
-    description: 'Showcase your robotics skills in a friendly competition.',
-    img: 'bg2.jpg',
-  },
-];
+import eventsData from './eventsData.json';
 
 const Events = () => (
   <div className="Event">
@@ -32,11 +12,12 @@ const Events = () => (
     <main>
       <div className="event-list">
         {eventsData.map((event, index) => (
-          <EventList key={index} {...event} />
+          // <div>event </div>
+          <EventList {...event} />
         ))}
       </div>
     </main>
   </div>
 );
 
-export default memo(Events);
+export default Events;
