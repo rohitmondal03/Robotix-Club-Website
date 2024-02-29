@@ -1,0 +1,17 @@
+.preloader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7efef;
+  height: 100vh;
+}
+
+.preloader-image {
+  height: 25vh;
+  width: auto;
+}
+.preloader-image2 {
+  height: 5vh;
+  width: auto;
+}
