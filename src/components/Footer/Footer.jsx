@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
               <a href="#"><i className="icon ion-social-twitter"></i></a>
               <a href="#"><i className="icon ion-social-github"></i></a>
               <a href="#"><i className="icon ion-social-linkedin"></i></a>
-              <p className="copyright">Crafted by Robotix Club's Web Team</p>
+              <p className="copyright">Crafted by Robotix Club&apos;s Web Team</p>
             </div>
           </div>
         </div>

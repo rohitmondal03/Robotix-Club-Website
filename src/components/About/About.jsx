@@ -1,6 +1,3 @@
-import React, { memo } from "react";
-import { useState } from "react";
-
 import NumberAnimation from "../Animation/Animation";
 import "./About.css";
 
@@ -16,7 +13,7 @@ function About() {
             <div className="container-fluid content">
               <div className="description">
                 <div className="desc" id="desc1">
-                  <h2 classNameName="">Who Are We ??</h2>
+                  <h2 className="">Who Are We ??</h2>
                   <p>
                     The Robotix Club of NIT Raipur is a convergence of
                     innovators, contributors, and experts in the field of
@@ -83,4 +80,4 @@ function About() {
   );
 }
 
-export default memo(About);
+export default About;

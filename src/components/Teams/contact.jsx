@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './contact.css';
 
 const ContactForm = () => {
@@ -26,36 +26,41 @@ const ContactForm = () => {
   return (
     <div className="contact-us-container">
       <form onSubmit={handleSubmit}>
-        <label>
-          Name:
+        <label className='labels'>
+          <p>Name </p>
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
             required
+            placeholder='Type your name....'
           />
         </label>
-        <label>
-          Email:
+        <label className='labels'>
+          <p>Email </p>
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
             required
+            placeholder='Type your email address....'
           />
         </label>
         <label>
-          Message:
+          <p>Message </p>
           <textarea
             name="message" className='m'
             value={formData.message}
             onChange={handleChange}
             required
+            placeholder='Express Yourself....'
           />
         </label>
-        <button type="submit">Submit</button>
+        <div className='buttons'>
+          <button type="submit" className='button'>Submit</button>
+        </div>
       </form>
     </div>
   );
