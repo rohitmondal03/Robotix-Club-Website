@@ -166,3 +166,9 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 465px) {
+    .eventIn {
+        min-width: 300px;
+    }
+}
