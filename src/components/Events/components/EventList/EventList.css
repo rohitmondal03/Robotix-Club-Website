@@ -69,11 +69,6 @@
     background: none;
 }
 
-.rotatory{
-    /* border: 1px solid #ff0000; */
-
-}
-
 .rotatory:hover .eventIn {
     transform: rotate3d(0, 10, -2, 180deg) scaleX(-1);
     /* opacity: 1 !important; */
