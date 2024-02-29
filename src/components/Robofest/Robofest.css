@@ -93,19 +93,19 @@ a {
 margin-top: 1em;
 }
 .anim1{
-  transform: translateX(200px);
+  transform: translateX(00px);
 } 
 .anim2{
-  transform: translateX(100px);
+  transform: translateX(00px);
 } 
 .anim3{
   transform: translateX(0px);
 } 
 .anim4{
-  transform: translateX(100px);
+  transform: translateX(00px);
 } 
 .anim5{
-  transform: translateX(200px);
+  transform: translateX(00px);
 } 
 @media screen and (max-width: 800px) {
   .anim1{
