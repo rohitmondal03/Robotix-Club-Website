@@ -3,10 +3,6 @@ import { memo, useRef, useEffect, useState } from "react";
 import EventPopUp from "../EventPopUp/EventPopUp";
 import './EventList.css'
 
-
-let bg;
-var elementStyle;
-
 const EventList = (...eventDetails) => {
   const targetRef = useRef(null);
   // console.log(typeof(eventDetails));
