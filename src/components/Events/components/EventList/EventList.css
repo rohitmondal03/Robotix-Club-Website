@@ -87,13 +87,13 @@
 .slideLeftIn {
     animation: slideLeftIn 2s;
     opacity: 1;
-    transform: translateX(-20vw);
+    transform: translateX(-17vw);
 }
 
 .slideRightIn {
     animation: slideRightIn 2s;
     opacity: 1;
-    transform: translateX(20vw);
+    transform: translateX(17vw);
 }
 
 .hoveredLeft {
@@ -105,10 +105,9 @@
 }
 
 .breaker{
-    width: 40vw;
-    height: 2px;
-    border: 1px solid var(--header-bg-shadow);
-    background-color: var(--header-bg-shadow);
+    width: 35vw;
+    height: 3px;
+    background-image: linear-gradient(to right, #ffaa00, #fbdb5a, #f0f0f0);
 }
 
 @keyframes slideLeftIn {
@@ -170,5 +169,25 @@
 @media (max-width: 465px) {
     .eventIn {
         min-width: 300px;
+    }
+    
+    .innerBox p{
+        font-size: 0.85rem;
+    }
+    
+    .innerBox h1{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .eventIn {
+        min-width: 200px;
+        max-width: 200px;
+        height: 200px;
     }
 }
