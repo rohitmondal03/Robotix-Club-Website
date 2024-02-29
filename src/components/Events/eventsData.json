@@ -15,7 +15,8 @@
       "The robot must be able to perform the task assigned to it.",
       "Any team found to be violating the rules will be disqualified."
     ],
-    "link": "https://forms.gle/HY1y2kpR5q7BguX46"
+    "link": "https://forms.gle/HY1y2kpR5q7BguX46",
+    "link2" : "https://drive.google.com/file/d/1LB7Ou_u5NXkioI-9McxO-qxtz9Wx42a9/view?usp=drivesdk"
   },
   {
     "title": "IDEATHON",
@@ -88,7 +89,8 @@
       "Participants must be registered and present in the event to participate.",
       "Participants must bring their own tools and equipment required for showcasing their projects.",
       "Any participant found to be violating the rules will be disqualified."
-    ]
+    ],
+    "link" : "https://forms.gle/tZy6hTWUnGVxKGDt8"
   },
   {
     "title": "ASSEMBLERS",
@@ -137,6 +139,5 @@
     "objective": "",
     "outcome": "",
     "description": "",
-    "rules": 0
   }
 ]
