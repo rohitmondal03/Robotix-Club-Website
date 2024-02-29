@@ -17,27 +17,34 @@ const EventPopUp = ({ ...eventDetails }) => {
             </div>
             <div className="popup-content">
                 <div className="popup-details">
-                    <div className="details">
-                        <div className="rules">
-                            <ul>
-                                <li>Rules</li>
-                                {eventDetails[0].rules && eventDetails[0].rules.map((rule,index) => (
-                                    <li key={rule}>{index+1}. {rule} </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
+                    {eventDetails[0].rules ?
+                        <div className="details">
+                            <div className="rules">
+                                <ul>
+                                    <li>Rules</li>
+                                    {eventDetails[0].rules && eventDetails[0].rules.map((rule,index) => (
+                                        <li key={rule}>{index+1}. {rule} </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div> : "" 
+                    }
                 </div>
                 <div className="popup-image" data-image={eventDetails[0].img} style={{ backgroundImage: eventDetails[0].img }}>
                     <img src={eventDetails[0].img} alt="" />
                 </div>
             </div>
-            <div className="register">
-                <p>
-                    Register:
-                    <a href={eventDetails[0].link}> {eventDetails[0].link}</a>
-                </p>
-            </div>
+            {eventDetails[0].link ? 
+                <div className="register">
+                    <p>
+                        Register:
+                        <a href={eventDetails[0].link}> {eventDetails[0].link}</a>
+                        <p>
+                            <a href={eventDetails[0].link}> {eventDetails[0].link2}</a>
+                        </p>
+                    </p>
+                </div> : ""
+            }
             <div className="popup-desc">
                 <h1>Description:-</h1>
                 <p id="popup-description"> {eventDetails[0].description}</p>
