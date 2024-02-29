@@ -12,7 +12,8 @@ const Events = () => (
     <main>
       <div className="event-list">
         {eventsData.map((event, index) => (
-          <EventList key={index} {...event} />
+          // <div>event </div>
+          <EventList {...event} />
         ))}
       </div>
     </main>
