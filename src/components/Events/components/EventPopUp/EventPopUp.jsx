@@ -45,10 +45,12 @@ const EventPopUp = ({ ...eventDetails }) => {
                     </p>
                 </div> : ""
             }
-            <div className="popup-desc">
-                <h1>Description:-</h1>
-                <p id="popup-description"> {eventDetails[0].description}</p>
-            </div>
+            {eventDetails[0].description ?
+                <div className="popup-desc">
+                    <h1>Description:-</h1>
+                    <p id="popup-description"> {eventDetails[0].description}</p>
+                </div> : ""
+            }
         </div>
     );
 }
