@@ -1,4 +1,4 @@
-import React, { memo, useRef, useEffect, useState } from "react";
+import { memo, useRef, useEffect, useState } from "react";
 import './EventPopUp.css'
 
 const EventPopUp = ({ ...eventDetails }) => {
@@ -8,32 +8,49 @@ const EventPopUp = ({ ...eventDetails }) => {
             <div className="popup-header">
                 <h1>{eventDetails[0].title}</h1>
                 <p id="popup-date">Date: {eventDetails[0].date}</p>
+                <div onClick={eventDetails.onClose} className="close-popup-btn" >
+                    <div>
+                        <span className="close-btn-span" id="close1"></span>
+                        <span className="close-btn-span" id="close2"></span>
+                    </div>
+                </div>
             </div>
             <div className="popup-content">
-                <div className="popup-details sub-ev-popup">
-                    <div onClick={eventDetails.onClose} className="close-popup-btn" >
-                        <div>
-                            <span className="close-btn-span" id="close1"></span>
-                            <span className="close-btn-span" id="close2"></span>
+                {eventDetails[0].rules ?
+                    <div className="popup-details">
+                        <div className="details">
+                            <div className="rules">
+                                <ul>
+                                    <li>Rules</li>
+                                    {eventDetails[0].rules && eventDetails[0].rules.map((rule,index) => (
+                                        <li key={rule}>{index+1}. {rule} </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div className="details">
-                        <div className="rules">
-                            <ul>
-                                <li>Rules</li>
-                                {eventDetails[0].rules && eventDetails[0].rules.map((rule) => (
-                                    <li key={rule}> {rule} </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <p id="popup-description">{eventDetails[0].description}</p>
-                    </div>
-                </div>
-                <div className="popup-image sub-ev-popup" data-image={eventDetails[0].img} style={{ backgroundImage: eventDetails[0].img }}>
+                    </div> : "" 
+                }
+                <div className="popup-image" data-image={eventDetails[0].img} style={{ backgroundImage: eventDetails[0].img }}>
                     <img src={eventDetails[0].img} alt="" />
-                    <a href={eventDetails[0].link}> {eventDetails[0].link}</a>
                 </div>
             </div>
+            {eventDetails[0].link ? 
+                <div className="register">
+                    <p>
+                        Register:
+                        <a href={eventDetails[0].link}> {eventDetails[0].link}</a>
+                        <p>
+                            <a href={eventDetails[0].link}> {eventDetails[0].link2}</a>
+                        </p>
+                    </p>
+                </div> : ""
+            }
+            {eventDetails[0].description ?
+                <div className="popup-desc">
+                    <h1>Description:-</h1>
+                    <p id="popup-description"> {eventDetails[0].description}</p>
+                </div> : ""
+            }
         </div>
     );
 }
