@@ -90,6 +90,10 @@
     transform: translateX(-17vw);
 }
 
+.slideLeftIn .innerBox h1{
+    color: #000;
+}
+
 .slideRightIn {
     animation: slideRightIn 2s;
     opacity: 1;
