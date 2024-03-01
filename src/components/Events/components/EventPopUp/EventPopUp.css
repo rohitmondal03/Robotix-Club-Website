@@ -87,6 +87,11 @@
     color: #000;
     font-size: 1.2rem;
 }
+
+.rules li {
+    margin-top: 10px;
+}
+
 .register {
     margin: 20px;
 }
