@@ -16,8 +16,8 @@ const EventPopUp = ({ ...eventDetails }) => {
                 </div>
             </div>
             <div className="popup-content">
-                <div className="popup-details">
-                    {eventDetails[0].rules ?
+                {eventDetails[0].rules ?
+                    <div className="popup-details">
                         <div className="details">
                             <div className="rules">
                                 <ul>
@@ -27,9 +27,9 @@ const EventPopUp = ({ ...eventDetails }) => {
                                     ))}
                                 </ul>
                             </div>
-                        </div> : "" 
-                    }
-                </div>
+                        </div>
+                    </div> : "" 
+                }
                 <div className="popup-image" data-image={eventDetails[0].img} style={{ backgroundImage: eventDetails[0].img }}>
                     <img src={eventDetails[0].img} alt="" />
                 </div>
