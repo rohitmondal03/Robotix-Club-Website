@@ -30,16 +30,16 @@ const Footer = () => {
             <div className="col-sm-4 col-md-3 item">
               <h3  className="color_black">Links</h3>
               <ul>
-                <li><a href="#">About US</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/teams">Team</a></li>
               </ul>
             </div>
             <div className="col-lg-3 item social" style={{marginTop : '10px'}}>
-              <a href="#"><i className="icon ion-social-instagram"></i></a>
-              <a href="#"><i className="icon ion-social-twitter"></i></a>
-              <a href="#"><i className="icon ion-social-github"></i></a>
-              <a href="#"><i className="icon ion-social-linkedin"></i></a>
+              <a href="https://www.instagram.com/robotix_nitrr/"><i className="icon ion-social-instagram"></i></a>
+              <a href="https://twitter.com/RobotixR"><i className="icon ion-social-twitter"></i></a>
+              <a href="https://github.com/rohitmondal03/Robotix-Club-Website"><i className="icon ion-social-github"></i></a>
+              <a href="https://in.linkedin.com/company/robotix-club-nit-raipur"><i className="icon ion-social-linkedin"></i></a>
               <p className="copyright">Crafted by Robotix Club&apos;s Web Team</p>
             </div>
           </div>
