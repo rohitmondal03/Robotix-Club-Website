@@ -1,4 +1,5 @@
-import './Footer.css'
+import './Footer.css';
+import logo from './blackicon.png';
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
               alignItems: 'center',
               margin: '0px 0px 10px 0',
             }}>
-              <img src="src/components/Footer/blackicon.png" alt="Robotix Club NITRR" style={{
+              <img src={logo} alt="Robotix Club NITRR" style={{
                 width: '100px',
                 height: 'auto',
                 color:'black',
