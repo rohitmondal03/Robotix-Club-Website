@@ -56,7 +56,7 @@ function Robofest() {
             </p>
             <Link to="/events">
             <div  className="btn anim  anim1 orange">
-             Up comming Events
+             Up coming Events
             </div></Link>
            
           </div>
