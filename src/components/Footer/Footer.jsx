@@ -10,6 +10,7 @@ const Footer = () => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
+              margin: '0px 0px 10px 0',
             }}>
               <img src="src/components/Footer/blackicon.png" alt="Robotix Club NITRR" style={{
                 width: '100px',
@@ -33,7 +34,7 @@ const Footer = () => {
                 <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
-            <div className="col-lg-3 item social">
+            <div className="col-lg-3 item social" style={{marginTop : '10px'}}>
               <a href="#"><i className="icon ion-social-instagram"></i></a>
               <a href="#"><i className="icon ion-social-twitter"></i></a>
               <a href="#"><i className="icon ion-social-github"></i></a>

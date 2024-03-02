@@ -34,7 +34,7 @@
   position: fixed;
   padding: 2rem 3rem;
   align-items: start;
-  height: 100vh;
+  height: 100vw;
   width: 320px;
   background-color: #f6bb31;
   color: rgb(0, 0, 0);
@@ -48,7 +48,7 @@
 }
 
 .display-nav{
-  width: 250px;
+  width: 185px;
   margin-top: 2em;
   font-weight: 600;
   flex-direction: column;
