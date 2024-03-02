@@ -67,7 +67,7 @@ const TeamPage= () =>{
                     <div className='oc-box'><img src='/Ayush Damor.jpeg' className='oc'/><p className='name-ocs'>Ayush Damor</p><p className='dom-ocs'>Technical</p></div>
                     <div className='oc-box'><img src='/Ashish Anand.jpg' className='oc'/><p className='name-ocs'>Ashish Anand</p><p className='dom-ocs'>Technical</p></div>
                     <div className='oc-box'><img src='/Harsh Jangir.jpg' className='oc'/><p className='name-ocs'>Harsh</p><p className='dom-ocs'>Technical</p></div>
-                    <div className='oc-box'><img src='/Rohit Kumar.png' className='oc'/><p className='name-ocs'>Rohit Kumar</p><p className='dom-ocs'>Web Development</p></div>
+                    <div className='oc-box'><img src='/Rohit Kumar.png' className='oc'/><p className='name-ocs'>Rohit M</p><p className='dom-ocs'>Web Development</p></div>
                     <div className='oc-box'><img src='/Aman Dhananjay.jpg' className='oc'/><p className='name-ocs'>Aman Dhananjay</p><p className='dom-ocs'>Web Development</p></div>
                     <div className='oc-box'><img src='/Ekant Sahu.JPG' className='oc'/><p className='name-ocs'>Ekant Sahu</p><p className='dom-ocs'>Web Development</p></div>
                     <div className='oc-box'><img src='/Azhar.jpg' className='hc'/><p className='name-ocs'>Azhar Ansari</p><p className='dom-ocs'>Web Development</p></div>
@@ -96,47 +96,13 @@ const TeamPage= () =>{
                       <div className='ex-box'><p className='name-exs'>Chirag Garg</p><p className='dom-exs'>Technical</p></div>
                       <div className='ex-box'><p className='name-exs'>Rohit Seth</p><p className='dom-exs'> Event Management</p></div>
                       <div className='ex-box'><p className='name-exs'>Ashutosh Singh</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
-                      <div className='ex-box'><p className='name-exs'>lorem ipsum</p><p className='dom-exs'>Technical</p></div>
+                     
                     </div>
                   </div>
                 </div>
             </div>
 
-            {/* Volunteers */}
-            <div className='Ex'>
-                <p className='para-oc'>Volunteers</p>
-                <div className='executives'>
-                  <div>
-                    <div className='Executives'>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    <div className='ex-box'><p className='name-exs'>lorem ipsum</p></div>
-                    </div>
-                  </div>
-                </div>
-            </div>
+            
 
           </div>
       </div>

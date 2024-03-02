@@ -18,9 +18,10 @@ span {
 }
 
 .sub-title {
-  margin: 2rem 0 1rem 0;
+  margin: 5.8rem 0 1rem 0rem;
   font-size: 1.4rem;
-  color: #494949;
+  font-weight: 500;
+  color: #101010;
 }
 
 a {

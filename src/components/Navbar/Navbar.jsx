@@ -10,12 +10,11 @@ export default function Navbar() {
     <nav className={`${isOpen ? "navbar_expand" : "navbar_normal"} navbar`}>
       <div className="flexbox">
 
-      <h2 className="nav-title">Robotix Club</h2>
+      <h2 className={`${isOpen ? "c-black" : "c-white"} nav-title`}>Robotix Club</h2>
       <div className={`${isOpen ? "display-nav" : "displayno"} navbar`}>
       <Link to="/">HOME</Link>
       <Link to="/about">ABOUT</Link>
       <Link to="/events">EVENT</Link>
-      <Link to="/project">PROJECT</Link>
       <Link to="/teams">TEAM</Link>
       </div></div>
 

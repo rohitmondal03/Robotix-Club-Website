@@ -1,5 +1,5 @@
 import "./Robofest.css";
-
+import { Link } from "react-router-dom";
 
 
 function Robofest() {
@@ -54,23 +54,11 @@ function Robofest() {
               big gathering of smart and creative people who love playing with
               robots and pushing the limits of what they can do.
             </p>
-            <a href="https://forms.gle/tZy6hTWUnGVxKGDt8" className="btn anim  anim1 orange">
-             ROBOEXPO
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3nyKN3mRB-nlX7La6hotLO6t6bAidR3qNHwf6EoDdieuqaA/viewform?usp=sf_link" className="btn anim anim2  orange">
-             ROBOFIGHT
-            </a>
-            <a href="https://forms.gle/f4r5HykFZKjb4u22A" className="btn anim anim3  orange">
-             ROBORACE
-            </a>
-            <a href="https://forms.gle/trhjq9FcVsYbh2wk8" className="btn anim anim4  orange">
-             IDEATHON
-            </a>
-            <a href="https://forms.gle/HY1y2kpR5q7BguX46" className="btn anim anim5 orange">
-             ROBOTHON
-            </a><a href="https://drive.google.com/file/d/1LB7Ou_u5NXkioI-9McxO-qxtz9Wx42a9/view?usp=drivesdk" className="lnk ">
-             Problems statement Link
-            </a>
+            <Link to="/events">
+            <div  className="btn anim  anim1 orange">
+             Up cumming Events
+            </div></Link>
+           
           </div>
           <div className="imge">
             <img

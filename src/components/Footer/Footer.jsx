@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer-clean">
       <footer>
-        <div className="container">
+        <div className="f-container">
           <div className="row justify-content-center">
             <div style={{
               display: 'flex',

@@ -1301,7 +1301,7 @@
       flex-direction: column-reverse;
     }
     .about_graphic {
-      transform: translate(-500px,-500px);
+      transform: translate(00px,-500px);
     }
     .about_txt {
       transform: translateY(-500px);
