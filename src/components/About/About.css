@@ -245,4 +245,20 @@ p {
     .aboutPage{
         font-size: 0.8rem;
     }
+
+    .content {
+        padding: 0;
+    }
+
+    .teamDetails > div {
+        padding: 0;
+    }
+
+    .teamDetails > div .para {
+        padding: 0 20px;
+    }
+    
+    .desc {
+        padding: 0;
+    }
 }
