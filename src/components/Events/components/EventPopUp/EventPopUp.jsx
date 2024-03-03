@@ -40,18 +40,12 @@ const EventPopUp = ({ ...eventDetails }) => {
                 <div className="popupFoot">
                     <div className="register">
                         {eventDetails[0].link ?
-                            <p>
-                                Register:
-                                <span>
-                                    <a href={eventDetails[0].link}> {eventDetails[0].link}</a>
-                                </span>
-                            </p> : ""
+                            <button className="registerBtn popupBtn"><a href={eventDetails[0].link} target="blank"> Register</a></button>
+                             : ""
                         }
                         {eventDetails[0].link2 ?
-                            <p>
-                                Statement:
-                                <a href={eventDetails[0].link2}> {eventDetails[0].link2}</a>
-                            </p> : ""
+                            <button className="StatementBtn popupBtn"><a href={eventDetails[0].link} target="blank"> Statement</a></button>
+                            : ""
                         }
                     </div>
                     {eventDetails[0].description ?

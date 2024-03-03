@@ -32,19 +32,25 @@
     flex-shrink: 1;
     /* min-height: 400px; */
     margin: 50px;
+    opacity: 0;
+
     width: 60vw;
     transition: all 1s;
-    transform: translateX(-100px);
+    transform: translateX(100px);
 }
 
 .eventCoverReverse {
     flex-direction: row-reverse;
-    transform: translateX(100px);
+    transform: translateX(-100px);
 }
 
 .eventCover:hover {
     background: transparent;
     box-shadow: none;
+}
+
+.eventCover:hover .eventIn{
+    margin: 20px;
 }
 
 .eventCover:hover .innerBox h1 {
@@ -62,16 +68,6 @@
     margin: 30px;
     margin-right: 0;
 }
-
-.eventCover:hover .gapper {
-    width: 40px;
-}
-
-.gapper {
-    transition: all 1s;
-    width: 0;
-}
-
 
 .innerBox {
     border-radius: 30px;
@@ -170,15 +166,15 @@
 }
 
 .slideLeftIn {
-    animation: slideLeftIn 2s;
+    animation: slideLeftIn 1.2s;
     opacity: 1;
-    transform: translateX(-20vw);
+    transform: translateX(100px);
 }
 
 .slideRightIn {
-    animation: slideRightIn 2s;
+    animation: slideRightIn 1.2s;
     opacity: 1;
-    transform: translateX(20vw);
+    transform: translateX(-100px);
 }
 
 .hoveredLeft {
@@ -243,8 +239,8 @@
         margin: 10px;
     }
 
-    .breaker {
-        /* width: 100%; */
+    .eventCover:hover .eventIn{
+        margin: 10px;
     }
 }
 

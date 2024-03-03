@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-clean">
       <footer>
         <div className="f-container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{width: '100%'}}>
             <div style={{
               display: 'flex',
               flexDirection: 'column',
