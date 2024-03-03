@@ -1,6 +1,6 @@
 import "./Robofest.css";
 import { Link } from "react-router-dom";
-
+import robot from './fest_robo.png';
 
 function Robofest() {
 
@@ -63,7 +63,7 @@ function Robofest() {
           <div className="imge">
             <img
               className="fest_robo"
-              src="src/components/Robofest/fest_robo.png"
+              src={robot}
               alt="Robotix Club NITRR"
             />
           </div>
