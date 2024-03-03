@@ -93,6 +93,7 @@ const EventList = (...eventDetails) => {
           <div className="innerBox">
             <h1>{eventDetails[0].title}</h1>
             <p>Date: {eventDetails[0].date}</p>
+            <p className="note">Venue in Image</p>
           </div>
           
           <div className="image">
