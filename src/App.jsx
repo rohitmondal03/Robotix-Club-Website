@@ -31,7 +31,7 @@ function App() {
     <>
 
       {loading ? <PreLoader /> : (
-        <div>
+        <div id='all'>
           <Navbar />
           <main>
             <Routes>

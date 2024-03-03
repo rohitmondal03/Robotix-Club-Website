@@ -14,6 +14,7 @@ const EventList = (...eventDetails) => {
     setIsPopupOpen(!isPopupOpen);
     const Event = document.querySelector('.Event');
     Event.style.userSelect = 'none';
+    Event.style.overflow = 'hidden';
   };
 
   // Background Image setter
@@ -92,8 +93,8 @@ const EventList = (...eventDetails) => {
           <div className="innerBox">
             <h1>{eventDetails[0].title}</h1>
             <p>Date: {eventDetails[0].date}</p>
-
           </div>
+          
           <div className="image">
             <div className="rotatory">
               <div className="eventIn" style={pseudoElement}>

@@ -1,5 +1,6 @@
 import { memo, useRef, useEffect, useState } from "react";
 import './EventPopUp.css'
+// import './PopUp.css'
 
 const EventPopUp = ({ ...eventDetails }) => {
     // console.log(ev
@@ -27,7 +28,7 @@ const EventPopUp = ({ ...eventDetails }) => {
                             <div className="details">
                                 <div className="rules">
                                     <ul>
-                                        <li>Rules</li>
+                                        <li>Rules:</li>
                                         {eventDetails[0].rules && eventDetails[0].rules.map((rule, index) => (
                                             <li key={rule}>{index + 1}. {rule} </li>
                                         ))}
@@ -40,11 +41,11 @@ const EventPopUp = ({ ...eventDetails }) => {
                 <div className="popupFoot">
                     <div className="register">
                         {eventDetails[0].link ?
-                            <button className="registerBtn popupBtn"><a href={eventDetails[0].link} target="blank"> Register</a></button>
-                             : ""
+                            <a href={eventDetails[0].link} target="blank"><button className="registerBtn popupBtn " role="button"> Register</button></a>
+                            : ""
                         }
                         {eventDetails[0].link2 ?
-                            <button className="StatementBtn popupBtn"><a href={eventDetails[0].link} target="blank"> Statement</a></button>
+                            <a href={eventDetails[0].link} target="blank"><button className="StatementBtn popupBtn " role="button"> Statement</button></a>
                             : ""
                         }
                     </div>
@@ -54,9 +55,42 @@ const EventPopUp = ({ ...eventDetails }) => {
                             <p id="popup-description"> {eventDetails[0].description}</p>
                         </div> : ""
                     }
+                    
                 </div>
             </div>
         </div>
+
+        // <div className="overlay">
+        //     {/* Background with semi-transparency */}
+        //     <div className="overlay-background"></div>
+
+        //     {/* Content container */}
+        //     <div className="overlay-content">
+        //         {/* Image */}
+        //         <img src={eventDetails[0].img} alt={eventDetails[0].description} />
+
+        //         {/* Description */}
+        //         <h2>{eventDetails[0].description}</h2>
+
+        //         {/* Buttons */}
+        //         <div className="overlay-buttons">
+        //             <a href={eventDetails[0].link} className="button">
+        //                 Register
+        //             </a>
+        //             <a href={eventDetails[0].link2} className="button">
+        //                 Statement
+        //             </a>
+        //         </div>
+
+        //         {/* Rules List */}
+        //         <h3>Rules</h3>
+        //         <ul className="rules-list">
+        //             {eventDetails[0].rules.map((rule) => (
+        //                 <li key={rule}>{eventDetails[0].rule}</li>
+        //             ))}
+        //         </ul>
+        //     </div>
+        // </div>
     );
 }
 
