@@ -18,7 +18,7 @@ const TeamPage= () =>{
                   <div>
                     <div className='Overall'>
                       <div className='oc-box'>
-                        <img src='/Chandrika Geddada.jpeg' className='oc'/>
+                        <img src='/Chandrika Geddada.jpg' className='oc'/>
                         <p className='name-ocs'>Chandrika Geddada</p>
                         <p className='dom-ocs'>Technical</p>
                       </div>
