@@ -45,7 +45,7 @@ const EventList = (...eventDetails) => {
         eventImage[i].style.height = eventImage[i].offsetWidth - 20 + "px";
       }
     }, 1000);
-    
+
     return () => clearTimeout(timeoutId);
   }, []);
 

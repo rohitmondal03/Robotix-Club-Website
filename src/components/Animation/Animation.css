@@ -1,6 +1,7 @@
 .number-animation {
-    font-size: 24px;
-    font-weight: bold;
-    transition: all 0.3s ease-out; /* Add a CSS transition for a smooth animation effect */
-  }
-  
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+  /* Add a CSS transition for a smooth animation effect */
+}

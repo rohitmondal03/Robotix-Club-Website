@@ -47,14 +47,6 @@
     box-shadow: none;
 }
 
-.eventCover:hover .eventIn {
-    border-radius: 50%;
-}
-
-.eventCover:hover .rotatory {
-    border-radius: 50%;
-}
-
 .eventCover:hover .innerBox h1 {
     color: #000;
     font-weight: 700;
@@ -133,6 +125,7 @@
 
 .rotatory:hover .eventIn {
     transform: rotate3d(0, 10, -2, 180deg) scaleX(-1);
+    outline: auto;
 }
 
 .rotatory:hover .innerBox {
@@ -142,7 +135,7 @@
 
 .eventIn {
     border-radius: 30px;
-    background: transparent;
+    background: rgb(245, 244, 244);
     cursor: pointer;
     display: flex;
     /* height: 100%; */
@@ -154,6 +147,7 @@
     text-align: center;
     transition: border 0.5s;
     -webkit-transition: all 1s;
+    user-select: none;
 }
 
 .eventIn p {
