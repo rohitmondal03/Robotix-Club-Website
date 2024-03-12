@@ -45,7 +45,7 @@ const EventPopUp = ({ ...eventDetails }) => {
                             : ""
                         }
                         {eventDetails[0].link2 ?
-                            <a href={eventDetails[0].link} target="blank"><button className="StatementBtn popupBtn " role="button"> Statement</button></a>
+                            <a href={eventDetails[0].link2} target="blank"><button className="StatementBtn popupBtn " role="button"> Statement</button></a>
                             : ""
                         }
                     </div>
@@ -59,38 +59,6 @@ const EventPopUp = ({ ...eventDetails }) => {
                 </div>
             </div>
         </div>
-
-        // <div className="overlay">
-        //     {/* Background with semi-transparency */}
-        //     <div className="overlay-background"></div>
-
-        //     {/* Content container */}
-        //     <div className="overlay-content">
-        //         {/* Image */}
-        //         <img src={eventDetails[0].img} alt={eventDetails[0].description} />
-
-        //         {/* Description */}
-        //         <h2>{eventDetails[0].description}</h2>
-
-        //         {/* Buttons */}
-        //         <div className="overlay-buttons">
-        //             <a href={eventDetails[0].link} className="button">
-        //                 Register
-        //             </a>
-        //             <a href={eventDetails[0].link2} className="button">
-        //                 Statement
-        //             </a>
-        //         </div>
-
-        //         {/* Rules List */}
-        //         <h3>Rules</h3>
-        //         <ul className="rules-list">
-        //             {eventDetails[0].rules.map((rule) => (
-        //                 <li key={rule}>{eventDetails[0].rule}</li>
-        //             ))}
-        //         </ul>
-        //     </div>
-        // </div>
     );
 }
 

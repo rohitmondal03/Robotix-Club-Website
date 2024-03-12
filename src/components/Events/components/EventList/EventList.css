@@ -31,9 +31,9 @@
     flex-grow: 1;
     flex-shrink: 1;
     /* min-height: 400px; */
-    margin: 50px;
+    margin: 0 50px;
+    margin-bottom: 8px;
     opacity: 0;
-
     width: 60vw;
     transition: all 1s;
     transform: translateX(100px);
@@ -77,7 +77,7 @@
     justify-content: center;
     padding: 40px 80px;
     width: 50%;
-    z-index: 1;
+    z-index: 5;
     transition: all 0.7s ease-out;
 }
 
@@ -97,11 +97,16 @@
     font-size: 1rem;
 }
 
+.note {
+    display: none;
+}
+
 .image {
     display: flex;
     justify-content: center;
     width: 50%;
     padding: 8px;
+    z-index: 6;
 }
 
 .rotatory {
@@ -187,10 +192,18 @@
 
 
 .breaker {
-    width: 50vw;
+    width: 45vw;
     height: 3px;
-    margin: 50px 0;
+    /* border: 1px solid #ff0000; */
+    /* margin: 50px 0; */
     background-image: linear-gradient(to right, #ffaa00, #fbdb5a, #f0f0f0);
+}
+
+.event-spacer {
+    height: 100px ;
+    background: none;
+    /* position: absolute; */
+    z-index: 5;
 }
 
 
@@ -258,9 +271,8 @@
         transform: none;
     }
 
-    .eventIn {
-        /* max-width: 300px; */
-        /* min-height: 250px; */
+    .note {
+        display: block;
     }
 
     .eventIn h1 {
@@ -287,9 +299,9 @@
         font-size: 0.8rem;
     }
 
-    .breaker {
+    /* .event-spacer {
         margin: 20px 0;
-    }
+    } */
 }
 
 @media (max-width: 400px) {
@@ -315,10 +327,6 @@
 
     .eventCover:hover .innerBox {
         margin: 0;
-    }
-
-    .eventCoverReverse {
-        /* flex-direction: column-reverse; */
     }
 }
 

@@ -1,61 +1,134 @@
 [
   {
-    "title": "ROBOTHON",
-    "date": "MARCH 16th & 17th, 2024",
-    "time": "10:30 AM to next day 12:00PM",
-    "venue": "Central Computer Center (CCC)",
-    "img": "events//robothon.png",
-    "objective": "Foster collaboration and innovation in robotics by bringing together enthusiasts, professionals, and hobbyists to showcase their skills, tackle challenges, and exchange knowledge.",
-    "outcome": ": Expect cutting-edge robotic solutions, a vibrant community, and a platform for learning and collaboration. The event aims to inspire creativity, problem-solving, and the development of groundbreaking robotics projects.",
-    "description": " Robothon is a unique event that challenges students to build a robot from scratch within a span of 24 hours. The participants will be provided with a set of components, and they will have to use their creativity, technical skills, and problem-solving abilities to build a functional robot. Robothon is an excellent opportunity for students to showcase their skills and learn from their peers. It is a platform for students to work together, innovate, and create something new and exciting. The event is designed to test the participants' technical skills, creativity, and ability to work under pressure. We wish all the participants the best of luck and look forward to seeing the amazing robots they will create.",
-    "rules": [
-      "Participants must bring their own tools and equipment required for building the robot.",
-      "The robot must be built within the 24-hour time frame provided.",
-      "The robot must be built using only the components they brought during the event",
-      "The robot must be able to perform the task assigned to it.",
-      "Any team found to be violating the rules will be disqualified."
-    ],
-    "link": "https://forms.gle/HY1y2kpR5q7BguX46",
-    "link2" : "https://drive.google.com/file/d/1LB7Ou_u5NXkioI-9McxO-qxtz9Wx42a9/view?usp=drivesdk"
+    "title": "SPEAKER'S SESSION",
+    "date": "MARCH 16, 2024",
+    "time": "10:00 AM to 11:00 AM",
+    "venue": "E-HALL",
+    "img": "events//speakersession.png",
+    "objective": "",
+    "outcome": "",
+    "description": ""
   },
   {
-    "title": "IDEATHON",
-    "date": "MARCH 16, 2024",
-    "time": "10:30 AM to 1:00 PM",
-    "venue": "ARCHITECTURE AUDITORIUM",
+    "date": "MARCH 16th & 17th, 2024",
+    "deadline": ": 13th March",
+    "description": " Robothon is a unique event that challenges students to build a robot from scratch within a span of 24 hours. The participants will be provided with a set of components, and they will have to use their creativity, technical skills, and problem-solving abilities to build a functional robot. Robothon is an excellent opportunity for students to showcase their skills and learn from their peers. It is a platform for students to work together, innovate, and create something new and exciting. The event is designed to test the participants' technical skills, creativity, and ability to work under pressure. We wish all the participants the best of luck and look forward to seeing the amazing robots they will create.",
+    "img": "events//robothon.png",
+    "link": "https://forms.gle/HY1y2kpR5q7BguX46",
+    "link2": "https://docs.google.com/document/d/1k7DSxK24vLR6x4xUTgVzu8mt8YbEcPeuSxNwNAKk1Xg/edit?usp=drivesdk",
+    "title": "ROBOTHON",
+    "time": "10:30 AM to next day 12:00PM",
+    "venue": "Maker's Space",
+    "objective": "Foster collaboration and innovation in robotics by bringing together enthusiasts, professionals, and hobbyists to showcase their skills, tackle challenges, and exchange knowledge.",
+    "outcome": ": Expect cutting-edge robotic solutions, a vibrant community, and a platform for learning and collaboration. The event aims to inspire creativity, problem-solving, and the development of groundbreaking robotics projects.",
+    "prizes" : "Winners: 12K (Plus Exciting Gifts) \n Runners: 9K (Plus Exciting Gifts) \n Third position: 6K (Plus Exciting Gifts).",
+    "rules": [
+      "Each team can have a maximum of 4 members.",
+      "The robot must be built within the 24-hour time frame provided.",
+      "Only the components provided by the organizers and brought by the team during the event can be used in the construction process.",
+      "The robot must be able to perform the task assigned to it.",
+      "Any team found to be violating the rules will be disqualified."
+    ]
+  },
+  {
+    "date": "MARCH 16th 2024",
+    "deadline": ": 14th March",
+    "description": "Ideathon is a 2.5-hour event that challenges students to come up with innovative ideas and solutions to real-world problems. The event is scheduled to start at 10:30 AM on 16th March 2024 and will continue until 1 PM on the same day. The participants will be divided into teams, and each team will be given a problem statement related to robotics and automation.",
     "img": "events//ideathon.png",
+    "link": "https://forms.gle/trhjq9FcVsYbh2wk8",
     "objective": "Foster innovation and problem-solving by bringing diverse minds together to address real-world challenges.",
     "outcome": "Generate innovative ideas, empower participants, and facilitate the development of actionable solutions with real-world impact.",
-    "description": "Ideathon is a 2.5-hour event that challenges students to come up with innovative ideas and solutions to real-world problems. The event is scheduled to start at 10:30 AM on 16th March 2024 and will continue until 1 PM on the same day. The participants will be divided into teams, and each team will be given a problem statement related to robotics and automation.",
+    "rules": [
+      "Participants must be registered and present in the event to participate.",
+      "Teams can have a maximum of 3 members.",
+      "The solution must be related to robotics and automation.",
+      "The solution must be presented in the form of a PowerPoint presentation.",
+      "The presentation should not exceed 10 minutes with max 10 slides",
+      "Any team found to be violating the rules will be disqualified."
+    ],
+    "title": "IDEATHON",
+    "time": "10:30 AM to 1:00 PM",  
+    "prizes" : "Winners: Exciting Gifts \n Runners: Exciting Gifts",
+    "venue": "E-HALL"
+  },
+  {
+    "date": "16th MARCH, 2024",
+    "description": "ASSEMBLERS is a hands-on robotics competition where teams use a provided kit to build a robot. The challenge involves interpreting instructions, collaborating, and overcoming obstacles. Judges evaluate precision, efficiency, and innovation, promoting a competitive spirit and practical application of knowledge.",
+    "img": "events//assemblers.avif",
+    "objective": "Challenge participants to assemble a robot using a predefined kit, testing their assembly skills, problem-solving, and teamwork.",
+    "outcome": "Participants showcase their engineering abilities, not just by assembling a robot, but also by optimizing its performance. The outcome reflects technical acumen and collaborative skills.",
     "rules": [
       "Participants must be registered and present in the event to participate.",
       "Teams can have a maximum of 4 members.",
-      "The solution must be related to robotics and automation.",
-      "The solution must be presented in the form of a PowerPoint presentation.",
-      "The presentation should not exceed 10 minutes",
+      "The robot must be built using only the components provided. No additional components are allowed.",
+      "Projects should prioritize safety. Any potentially hazardous components or configurations are strictly prohibited.",
+      "Projects should exhibit a functional aspect, showcasing the effective integration of Robotics, IoT, and Automation concepts",
+      "Judging will be based on creativity, functionality, adherence to the provided components, and overall presentation of the assembled project. Judges' decisions will be final and binding.",
       "Any team found to be violating the rules will be disqualified."
     ],
-      "link" : "https://forms.gle/trhjq9FcVsYbh2wk8"
+    "title": "ASSEMBLERS",
+    "time": "10:30 AM to 1:00 PM",
+    "venue": "B1"
   },
   {
     "title": "ROBOFIGHT",
-    "date": "MARCH 16, 2024",
-    "time": "2:00 PM TO 5:00 PM",
-    "venue": "AMUL PARLOUR",
+    "date": "16th MARCH, 2024",
+    "deadline" : "14th March",
+    "description": "RoboFight is an exciting event that tests the participants' ability to design and build a robot that can fight against other robots. The event is scheduled to take place on 16th March 2024 from 2 PM to 5 PM. The participants will be divided into teams, and each team will be given the same set of components to build their robot.",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSf3nyKN3mRB-nlX7La6hotLO6t6bAidR3qNHwf6EoDdieuqaA/viewform?usp=sf_link",
     "img": "events//robofight.jpg",
     "objective": "ROBOFIGHT aims to showcase innovation and technical expertise in robotics through competitive battles. Participants demonstrate their engineering and programming skills in various challenges. ",
     "outcome": "The event serves as a platform for participants to display their robot's capabilities, fostering healthy competition, knowledge exchange, and advancements in robotics technology. ",
-    "description": "RoboFight is an exciting event that tests the participants' ability to design and build a robot that can fight against other robots. The event is scheduled to take place on 16th March 2024 from 2 PM to 5 PM. The participants will be divided into teams, and each team will be given the same set of components to build their robot.",
     "rules": [
-      "Participants must be registered and present in the event to participate.",
-      "Teams can have a maximum of 2 members.",
+      "Teams can have a maximum of 4 members.",
       "The robot must be built using only the components provided.",
       "The robot must fit within a 2ft x 2ft x 2ft cube.",
-      " The robot must be able to move and perform attacks.",
+      " The robot must be able to move and perform attacks. Explosives in the robots are not allowed.",
       "The robot that knocks out the other robot or causes the most damage will be declared the winner.",
       "Any team found to be violating the rules will be disqualified."
     ],
-    "link" : "https://docs.google.com/forms/d/e/1FAIpQLSf3nyKN3mRB-nlX7La6hotLO6t6bAidR3qNHwf6EoDdieuqaA/viewform?usp=sf_link"
+    "prizes": "Winners: 10K (Plus Exciting Gifts) \n Runners: 5K (Plus Exciting Gifts)",
+    "time": "2:00 PM TO 5:00 PM",
+    "venue": "AMUL PARLOUR"
+  },
+  {
+    "title": "ROBOEXPO",
+    "date": "17th MARCH, 2024",
+    "deadline" :" 14th March",
+    "description": "Annual event dedicated to robotics and automation, featuring exhibits, demonstrations, and presentations on industrial automation, AI, and autonomous systems. Keynote sessions and panel discussions provided valuable insights into current challenges and future trends. ROBOEXPO served as a dynamic platform for networking and shaping the future of robotics.",
+    "img": "events//roboexpo1.webp",
+    "link": "https://forms.gle/tZy6hTWUnGVxKGDt8",
+    "time": "2:00 PM to 6:00 PM",
+    "objective": "Showcase latest robotics and automation advancements, encourage collaboration among industry professionals, researchers, and enthusiasts.",
+    "outcome": "Successful convergence of robotics community, fostering innovation, collaboration, and knowledge exchange. Participants gained insights, witnessed live demonstrations, and formed potential collaborations.",
+    "rules": [
+      "Participants must be registered and present in the event to participate.",
+      "Participants must bring their own tools and equipment required for showcasing their projects.",
+      "Robots will be evaluated based on functionality, innovation, design, and presentation. Judges' decisions will be final and binding",
+      "Any participant found to be violating the rules will be disqualified."
+    ],
+    "prizes":"Winners: 10K (Plus Exciting Gifts) \n Runners: 9K (Plus Exciting Gifts)\n Third position: 6K (Plus Exciting Gifts).",
+    "venue": "E-HALL"
+  },
+  {
+    "date": "MARCH 16, 2024",
+    "deadline" :"14th March",
+    "description": "Teams will design and race autonomous robots through a challenging track, navigating obstacles and completing tasks. The competition tests technical prowess, strategic thinking, and adaptability, culminating in a head-to-head race to determine the ultimate winner.",
+    "img": "events//roborace.jpg",
+    "link": "https://forms.gle/f4r5HykFZKjb4u22A",
+    "objective": "ROBO RACE 2024, organized by NIT RAIPUR, aims is to provide a platform for budding engineers and tech   to showcase their skills in designing and implementing robotic systems.",
+    "outcome": "The event seeks to enhance participants' problem-solving, technical proficiency, and collaborative abilities, promoting a culture of technological excellence within the academic community. ",
+    "title": "ROBO RACE 2024",
+    "time": "2:00 PM to 6:00 PM",
+    "rules": [
+      "1. Two/ Three participants will have a race at the same time.",
+      "Participants must bring their own robots for the race.",
+      "You are not supposed to damage the other robot that you are racing with.",
+      "We are not responsible for technical damages.",
+      "Any participant violating the rules leads to disqualification of the candidate"
+    ],
+    "prizes" : "Winners: 5K (Plus Exciting Gifts) \n Runners: 3K (Plus Exciting Gifts)",
+    "venue": "Ground"
   },
   {
     "title": "ROBOQUIZ",
@@ -75,69 +148,5 @@
       "Any participant found to be violating the rules will be disqualified."
     ],
     "link": ""
-  },
-  {
-    "title": "ROBOEXPO",
-    "date": "MARCH 16, 2024",
-    "time": "2:00 PM to 6:00 PM",
-    "venue": "In Front of Central Garden",
-    "img": "events//roboexpo1.webp",
-    "objective": "Showcase latest robotics and automation advancements, encourage collaboration among industry professionals, researchers, and enthusiasts.",
-    "outcome": "Successful convergence of robotics community, fostering innovation, collaboration, and knowledge exchange. Participants gained insights, witnessed live demonstrations, and formed potential collaborations.",
-    "description": "Annual event dedicated to robotics and automation, featuring exhibits, demonstrations, and presentations on industrial automation, AI, and autonomous systems. Keynote sessions and panel discussions provided valuable insights into current challenges and future trends. ROBOEXPO served as a dynamic platform for networking and shaping the future of robotics.",
-    "rules": [
-      "Participants must be registered and present in the event to participate.",
-      "Participants must bring their own tools and equipment required for showcasing their projects.",
-      "Any participant found to be violating the rules will be disqualified."
-    ],
-    "link" : "https://forms.gle/tZy6hTWUnGVxKGDt8"
-  },
-  {
-    "title": "ASSEMBLERS",
-    "date": "MARCH 16, 2024",
-    "time": "11:00 AM to 1:00 PM",
-    "venue": "G4",
-    "img": "events//assemblers.avif",
-    "objective": "Challenge participants to assemble a robot using a predefined kit, testing their assembly skills, problem-solving, and teamwork.",
-    "outcome": "Participants showcase their engineering abilities, not just by assembling a robot, but also by optimizing its performance. The outcome reflects technical acumen and collaborative skills.",
-    "description": "ASSEMBLERS is a hands-on robotics competition where teams use a provided kit to build a robot. The challenge involves interpreting instructions, collaborating, and overcoming obstacles. Judges evaluate precision, efficiency, and innovation, promoting a competitive spirit and practical application of knowledge.",
-    "rules": [
-      "Participants must be registered and present in the event to participate.",
-      "Teams can have a maximum of 2 members.",
-      "The robot must be built using only the components provided.",
-      "The robot must fit within a 2ft x 2ft x 2ft cube.",
-      "The robot must be able to move and perform attacks.",
-      "The robot that knocks out the other robot or causes the most damage will be declared the winner.",
-      "Any team found to be violating the rules will be disqualified."
-    ]
-  },
-  {
-    "title": "ROBO RACE 2024",
-    "date": "MARCH 16, 2024",
-    "time": "2:00 PM to 6:00 PM",
-    "venue": "Ground",
-    "img": "events//roborace.jpg",
-    "objective": "ROBO RACE 2024, organized by NIT RAIPUR, aims is to provide a platform for budding engineers and tech   to showcase their skills in designing and implementing robotic systems.",
-    "outcome": "The event seeks to enhance participants' problem-solving, technical proficiency, and collaborative abilities, promoting a culture of technological excellence within the academic community. ",
-    "description": "Teams will design and race autonomous robots through a challenging track, navigating obstacles and completing tasks. The competition tests technical prowess, strategic thinking, and adaptability, culminating in a head-to-head race to determine the ultimate winner.",
-    "rules": [
-      "1. Two/ Three participants will have a race at the same time.",
-      "You are not supposed to damage the other robot that you are racing with.",
-      "We are not responsible for technical damages.",
-      "Only the participants registered for the event are allowed to participate in the event.",
-      "Participants must bring their own robots for the race.",
-      "Any participant violating the rules or not on time leads to direct disqualification of the candidate"
-    ],
-    "link" : "https://forms.gle/f4r5HykFZKjb4u22A"
-  },
-  {
-    "title": "SPEAKER'S SESSION",
-    "date": "MARCH 16, 2024",
-    "time": "10:00 AM to 11:00 AM",
-    "venue": "E-HALL",
-    "img": "events//speakersession.png",
-    "objective": "",
-    "outcome": "",
-    "description": ""
   }
 ]
