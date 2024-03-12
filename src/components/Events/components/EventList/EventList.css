@@ -49,7 +49,7 @@
     box-shadow: none;
 }
 
-.eventCover:hover .eventIn{
+.eventCover:hover .eventIn {
     margin: 20px;
 }
 
@@ -87,6 +87,7 @@
     color: beige;
     letter-spacing: 3px;
     font-weight: 700;
+    text-align: center;
 }
 
 
@@ -120,7 +121,7 @@
 
 .rotatory:hover .eventIn::before {
     backdrop-filter: blur(10px);
-    background: radial-gradient(#ffffff67, #000);
+    background: radial-gradient(#87868667, #000);
     z-index: -1;
 }
 
@@ -192,18 +193,26 @@
 
 
 .breaker {
-    width: 45vw;
+    width: 40vw;
     height: 3px;
-    /* border: 1px solid #ff0000; */
-    /* margin: 50px 0; */
     background-image: linear-gradient(to right, #ffaa00, #fbdb5a, #f0f0f0);
 }
 
 .event-spacer {
-    height: 100px ;
     background: none;
-    /* position: absolute; */
+    box-sizing: border-box;
+    height: 100px;
+    /* width: 50vw; */
     z-index: 5;
+}
+
+.event-spacer::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 0 10px;
+    width: 100px;
+    height: 100%;
+    background-image:#f0f0f0;
 }
 
 
@@ -252,7 +261,7 @@
         margin: 10px;
     }
 
-    .eventCover:hover .eventIn{
+    .eventCover:hover .eventIn {
         margin: 10px;
     }
 }

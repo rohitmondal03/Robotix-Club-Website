@@ -43,16 +43,37 @@ const EventList = (...eventDetails) => {
 
       for (let i = 0; i < eventSpacer.length; i++) {
         if (j < 2) {
-          eventSpacer[i].style.borderLeft = "3px solid #ffaa00"
+          if (i == 0) {
+            eventSpacer[i].style.height = "60px"
+            eventSpacer[i].style.borderLeft = "4px solid #f6bb31"
+            eventSpacer[i].style.marginTop = "-2px"
+          }
+          else {
+            eventSpacer[i].style.borderLeft = "4px solid #ffaa00"
+          }
+          // eventSpacer[i].style.borderTop = "3px solid #ffaa00"
+          // if (j == 1) {
+          //   // eventSpacer[i].style.borderRadius = " 0 20px 0 20px "
+          // }
+          // else {
+          //   // eventSpacer[i].style.borderRadius = "20px 0 20px 0"
+          //   eventSpacer[i].style.marginTop = "-3px"
+          // }
           j++;
         }
         else {
-          eventSpacer[i].style.borderRight = "3px solid #f0f0f0"
+          eventSpacer[i].style.borderRight = "4px solid #f0f0f0"
           count++;
           if (count == 2) {
             count = 0;
             j = 0;
           }
+          // if (count == 1) {
+          //   eventSpacer[i].style.borderRadius = " 0 20px 0 20px "
+          // }
+          // else {
+          //   eventSpacer[i].style.borderRadius = "20px 0 20px 0"
+          // }
         }
       }
     }, 200);
