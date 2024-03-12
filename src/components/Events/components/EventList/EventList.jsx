@@ -132,7 +132,7 @@ const EventList = (...eventDetails) => {
             <h1>{eventDetails[0].title}</h1>
             <p>Date: {eventDetails[0].date}</p>
             <p id="time">Time: {eventDetails[0].time}</p>
-            <p className="note">Venue in Image</p>
+            <p className="note">Venue in Image (Hold)</p>
           </div>
 
           <div className="image">

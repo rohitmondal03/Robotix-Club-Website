@@ -264,6 +264,21 @@
     .eventCover:hover .eventIn {
         margin: 10px;
     }
+
+    
+    .event-spacer {
+        /* height: 0; */
+        display: none;
+    }
+
+    .breaker {
+        margin: 50px 0;
+    }
+
+    .event-list {
+        margin-top: 50px;
+    }
+    
 }
 
 @media (max-width: 765px) {
@@ -318,7 +333,6 @@
         flex-direction: column-reverse;
         margin: 10px;
         box-shadow: 5px 5px #57575762;
-
     }
 
     .image,
