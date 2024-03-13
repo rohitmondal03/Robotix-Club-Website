@@ -42,7 +42,7 @@ const EventPopUp = ({ ...eventDetails }) => {
                     <div className="register">
                         {eventDetails[0].link ?
                             <a href={eventDetails[0].link} target="blank"><button className="registerBtn popupBtn " role="button"> Register</button></a>
-                            : ""
+                            : "On spot"
                         }
                         {eventDetails[0].link2 ?
                             <a href={eventDetails[0].link2} target="blank"><button className="StatementBtn popupBtn " role="button"> Statement</button></a>

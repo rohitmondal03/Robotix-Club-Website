@@ -51,7 +51,7 @@ function About() {
             <p>Total Members</p>
 
             <p id="members" className="count">
-              <NumberAnimation targetNumber={100} />
+              <NumberAnimation targetNumber={65} />
             </p>
           </div>
           <img src="management.png" alt="" />
@@ -61,7 +61,7 @@ function About() {
           <div className="para">
             <p>Events Organized</p>
             <p id="events" className="count">
-              <NumberAnimation targetNumber={25} />
+              <NumberAnimation targetNumber={35} />
             </p>
           </div>
           <img src="event.png" alt="" />
@@ -70,7 +70,7 @@ function About() {
           <div className="para">
             <p>Participations</p>
             <p id="part" className="count">
-              <NumberAnimation targetNumber={60} />
+              <NumberAnimation targetNumber={100} />
             </p>
           </div>
           <img src="support.png" alt="" />
